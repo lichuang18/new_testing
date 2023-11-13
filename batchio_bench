@@ -1,0 +1,86 @@
+#!/bin/bash
+
+dev=sdb
+rw=("read")
+if [[ $1 = "-t" ]];
+then
+	read -r -p "Are You Sure Start fio with '$(echo -e ${GREEN}${BOLD}sdb${NO_COLOR})'? [Y/n] " input
+	case $input in
+    		[yY][eE][sS]|[yY]|['echo -e "\r"'])
+			echo "Start Tmp Test!"
+			device=$dev fio config.fio
+			echo "Finish Tmp Test!"
+			exit
+			;;
+
+	    	[nN][oO]|[nN])
+			read -r -p "please input target device : " device
+       			echo "Finish Tmp Test!"         	
+			device=$dev fio config.fio
+			echo "Finish Tmp Test!"
+			exit 1
+       	        	;;
+
+    		*)
+			echo "Invalid input..."
+			exit 1
+			;;
+	esac
+	echo "Finish Tmp Test!"
+	exit
+fi
+
+if [[ $1 = "-help" || $1 = "-h" ]];then
+    echo "[ERROR] Please input parameter,example: ./run.sh sda 4K random raid5"
+    exit
+fi
+
+if [[ $# -ne 4 ]];
+then
+	echo "[ERROR] Please input parameter,example: ./run.sh sda 4K random raid5"
+	exit
+fi
+
+if [[ $3 = random ]];
+then
+	rw=("randread" "randwrite")
+elif [[ $3 = seq ]] || [[ $3 = sequential ]];
+then
+	rw=("read" "write")
+fi
+qd=("1" "4" "16" "32" "64")
+threads=("1" "4" "16" "32" "64")
+
+#qd=("32")
+#threads=("32")
+
+ratio=0
+count=0
+
+#awk -F"=|,|\/s" '{print $5}' 1   提取带宽
+#awk -F"=|,|\/s" '{print $3}' 1   提取IOPS
+
+let ti=${#qd[@]}*${#rw[@]}*${#threads[@]}
+for j in "${rw[@]}";
+do
+    for i in "${qd[@]}"; 
+    do
+	for k in "${threads[@]}";
+	do
+	    #tmp=`(device=$dev qd=$qd rw=$rw th=$threads fio config.fio |grep IOPS)`
+	    if [[ $3 = random ]]; then
+		    tmp=`(device=$dev qd=$qd rw=$rw th=$threads fio config.fio |grep IOPS | awk -F"=|,|/s" '{print $2}')`
+		    echo "rw=$j,thread=$k, qd=$i, $tmp" >> iops
+	    elif [[ $3 = seq ]] || [[ $3 = sequential ]]; then
+		    tmp=`(device=$dev qd=$qd rw=$rw th=$threads fio config.fio |grep IOPS | awk -F"=|,|/s" '{print $4}')`
+		    echo "rw=$j,thread=$k, qd=$i, $tmp" >> bw
+	    fi
+
+	    let count=$count+1
+       	    let ratio=(100/$((${#qd[@]} * ${#rw[@]} * ${#threads[@]} ))*$count)
+	    printf "progress:[%-30s]%d%%\r" "${mark}" "${ratio}"
+	    mark="##${mark}"
+    	done
+    done
+done
+echo

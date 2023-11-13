@@ -1,0 +1,1663 @@
+Mon Nov 13 07:26:03.554 2023 : CtMain::main processing for command=/ c 0 show 
+Mon Nov 13 07:26:03.555 2023 : Entering LinuxControllerExplorer::explore 
+Mon Nov 13 07:26:03.555 2023 : Entering LinuxControllerExplorer::getCtrlCount
+Mon Nov 13 07:26:03.555 2023 : LinuxControllerExplorer::getCtrlCount _hDvr=4 _hDvrSwr =-1
+Mon Nov 13 07:26:03.555 2023 : LinuxControllerExplorer::getCtrlCount kernelVer=1 
+Mon Nov 13 07:26:03.555 2023 : cli_sysfs_scan_for_new_devices: classpath = /sys/class/scsi_host
+
+Mon Nov 13 07:26:03.555 2023 : cli_sysfs_scan_for_new_devices: direntry->d_name = host15
+
+Mon Nov 13 07:26:03.555 2023 : cli_sysfs_scan_for_new_devices: path = /sys/class/scsi_host/host15
+
+Mon Nov 13 07:26:03.555 2023 : cli_get_adapter_map: path = /sys/class/scsi_host/host15/proc_name
+
+Mon Nov 13 07:26:03.555 2023 : cli_get_adapter_map: drvname = ahci
+
+
+Mon Nov 13 07:26:03.555 2023 : cli_sysfs_scan_for_new_devices: direntry->d_name = host9
+
+Mon Nov 13 07:26:03.555 2023 : cli_sysfs_scan_for_new_devices: path = /sys/class/scsi_host/host9
+
+Mon Nov 13 07:26:03.555 2023 : cli_get_adapter_map: path = /sys/class/scsi_host/host9/proc_name
+
+Mon Nov 13 07:26:03.555 2023 : cli_get_adapter_map: drvname = ahci
+
+
+Mon Nov 13 07:26:03.555 2023 : cli_sysfs_scan_for_new_devices: direntry->d_name = host13
+
+Mon Nov 13 07:26:03.555 2023 : cli_sysfs_scan_for_new_devices: path = /sys/class/scsi_host/host13
+
+Mon Nov 13 07:26:03.555 2023 : cli_get_adapter_map: path = /sys/class/scsi_host/host13/proc_name
+
+Mon Nov 13 07:26:03.555 2023 : cli_get_adapter_map: drvname = ahci
+
+
+Mon Nov 13 07:26:03.555 2023 : cli_sysfs_scan_for_new_devices: direntry->d_name = host7
+
+Mon Nov 13 07:26:03.555 2023 : cli_sysfs_scan_for_new_devices: path = /sys/class/scsi_host/host7
+
+Mon Nov 13 07:26:03.555 2023 : cli_get_adapter_map: path = /sys/class/scsi_host/host7/proc_name
+
+Mon Nov 13 07:26:03.555 2023 : cli_get_adapter_map: drvname = ahci
+
+
+Mon Nov 13 07:26:03.555 2023 : cli_sysfs_scan_for_new_devices: direntry->d_name = host11
+
+Mon Nov 13 07:26:03.555 2023 : cli_sysfs_scan_for_new_devices: path = /sys/class/scsi_host/host11
+
+Mon Nov 13 07:26:03.555 2023 : cli_get_adapter_map: path = /sys/class/scsi_host/host11/proc_name
+
+Mon Nov 13 07:26:03.555 2023 : cli_get_adapter_map: drvname = ahci
+
+
+Mon Nov 13 07:26:03.555 2023 : cli_sysfs_scan_for_new_devices: direntry->d_name = host5
+
+Mon Nov 13 07:26:03.555 2023 : cli_sysfs_scan_for_new_devices: path = /sys/class/scsi_host/host5
+
+Mon Nov 13 07:26:03.555 2023 : cli_get_adapter_map: path = /sys/class/scsi_host/host5/proc_name
+
+Mon Nov 13 07:26:03.555 2023 : cli_get_adapter_map: drvname = ahci
+
+
+Mon Nov 13 07:26:03.555 2023 : cli_sysfs_scan_for_new_devices: direntry->d_name = host3
+
+Mon Nov 13 07:26:03.555 2023 : cli_sysfs_scan_for_new_devices: path = /sys/class/scsi_host/host3
+
+Mon Nov 13 07:26:03.555 2023 : cli_get_adapter_map: path = /sys/class/scsi_host/host3/proc_name
+
+Mon Nov 13 07:26:03.555 2023 : cli_get_adapter_map: drvname = ahci
+
+
+Mon Nov 13 07:26:03.555 2023 : cli_sysfs_scan_for_new_devices: direntry->d_name = host1
+
+Mon Nov 13 07:26:03.555 2023 : cli_sysfs_scan_for_new_devices: path = /sys/class/scsi_host/host1
+
+Mon Nov 13 07:26:03.555 2023 : cli_get_adapter_map: path = /sys/class/scsi_host/host1/proc_name
+
+Mon Nov 13 07:26:03.555 2023 : cli_get_adapter_map: drvname = mpt3sas
+
+
+Mon Nov 13 07:26:03.555 2023 : cli_sysfs_scan_for_new_devices: direntry->d_name = host16
+
+Mon Nov 13 07:26:03.555 2023 : cli_sysfs_scan_for_new_devices: path = /sys/class/scsi_host/host16
+
+Mon Nov 13 07:26:03.555 2023 : cli_get_adapter_map: path = /sys/class/scsi_host/host16/proc_name
+
+Mon Nov 13 07:26:03.555 2023 : cli_get_adapter_map: drvname = ahci
+
+
+Mon Nov 13 07:26:03.555 2023 : cli_sysfs_scan_for_new_devices: direntry->d_name = host14
+
+Mon Nov 13 07:26:03.555 2023 : cli_sysfs_scan_for_new_devices: path = /sys/class/scsi_host/host14
+
+Mon Nov 13 07:26:03.555 2023 : cli_get_adapter_map: path = /sys/class/scsi_host/host14/proc_name
+
+Mon Nov 13 07:26:03.556 2023 : cli_get_adapter_map: drvname = ahci
+
+
+Mon Nov 13 07:26:03.556 2023 : cli_sysfs_scan_for_new_devices: direntry->d_name = host8
+
+Mon Nov 13 07:26:03.556 2023 : cli_sysfs_scan_for_new_devices: path = /sys/class/scsi_host/host8
+
+Mon Nov 13 07:26:03.556 2023 : cli_get_adapter_map: path = /sys/class/scsi_host/host8/proc_name
+
+Mon Nov 13 07:26:03.556 2023 : cli_get_adapter_map: drvname = ahci
+
+
+Mon Nov 13 07:26:03.556 2023 : cli_sysfs_scan_for_new_devices: direntry->d_name = host12
+
+Mon Nov 13 07:26:03.556 2023 : cli_sysfs_scan_for_new_devices: path = /sys/class/scsi_host/host12
+
+Mon Nov 13 07:26:03.556 2023 : cli_get_adapter_map: path = /sys/class/scsi_host/host12/proc_name
+
+Mon Nov 13 07:26:03.556 2023 : cli_get_adapter_map: drvname = ahci
+
+
+Mon Nov 13 07:26:03.556 2023 : cli_sysfs_scan_for_new_devices: direntry->d_name = host6
+
+Mon Nov 13 07:26:03.556 2023 : cli_sysfs_scan_for_new_devices: path = /sys/class/scsi_host/host6
+
+Mon Nov 13 07:26:03.556 2023 : cli_get_adapter_map: path = /sys/class/scsi_host/host6/proc_name
+
+Mon Nov 13 07:26:03.556 2023 : cli_get_adapter_map: drvname = ahci
+
+
+Mon Nov 13 07:26:03.556 2023 : cli_sysfs_scan_for_new_devices: direntry->d_name = host10
+
+Mon Nov 13 07:26:03.556 2023 : cli_sysfs_scan_for_new_devices: path = /sys/class/scsi_host/host10
+
+Mon Nov 13 07:26:03.556 2023 : cli_get_adapter_map: path = /sys/class/scsi_host/host10/proc_name
+
+Mon Nov 13 07:26:03.556 2023 : cli_get_adapter_map: drvname = ahci
+
+
+Mon Nov 13 07:26:03.556 2023 : cli_sysfs_scan_for_new_devices: direntry->d_name = host4
+
+Mon Nov 13 07:26:03.556 2023 : cli_sysfs_scan_for_new_devices: path = /sys/class/scsi_host/host4
+
+Mon Nov 13 07:26:03.556 2023 : cli_get_adapter_map: path = /sys/class/scsi_host/host4/proc_name
+
+Mon Nov 13 07:26:03.556 2023 : cli_get_adapter_map: drvname = ahci
+
+
+Mon Nov 13 07:26:03.556 2023 : cli_sysfs_scan_for_new_devices: direntry->d_name = host2
+
+Mon Nov 13 07:26:03.556 2023 : cli_sysfs_scan_for_new_devices: path = /sys/class/scsi_host/host2
+
+Mon Nov 13 07:26:03.556 2023 : cli_get_adapter_map: path = /sys/class/scsi_host/host2/proc_name
+
+Mon Nov 13 07:26:03.556 2023 : cli_get_adapter_map: drvname = ahci
+
+
+Mon Nov 13 07:26:03.556 2023 : cli_sysfs_scan_for_new_devices: direntry->d_name = host17
+
+Mon Nov 13 07:26:03.556 2023 : cli_sysfs_scan_for_new_devices: path = /sys/class/scsi_host/host17
+
+Mon Nov 13 07:26:03.556 2023 : cli_get_adapter_map: path = /sys/class/scsi_host/host17/proc_name
+
+Mon Nov 13 07:26:03.556 2023 : cli_get_adapter_map: drvname = ahci
+
+
+Mon Nov 13 07:26:03.556 2023 : cli_sysfs_scan_for_new_devices: direntry->d_name = host0
+
+Mon Nov 13 07:26:03.556 2023 : cli_sysfs_scan_for_new_devices: path = /sys/class/scsi_host/host0
+
+Mon Nov 13 07:26:03.556 2023 : cli_get_adapter_map: path = /sys/class/scsi_host/host0/proc_name
+
+Mon Nov 13 07:26:03.556 2023 : cli_get_adapter_map: drvname = megaraid_sas
+
+
+Mon Nov 13 07:26:03.556 2023 : cli_get_adapter_map: megaraid_sas driver found
+
+Mon Nov 13 07:26:03.556 2023 : cli_get_adapter_map: path = /sys/class/scsi_host/host0/device
+
+Mon Nov 13 07:26:03.556 2023 : cli_get_adapter_map: path /sys/class/scsi_host/host0/device is link
+Mon Nov 13 07:26:03.556 2023 : cli_get_adapter_map: devicedir = /sys/devices/pci0000:00/0000:00:03.1/0000:05:00.0/host0
+
+Mon Nov 13 07:26:03.556 2023 : cli_get_adapter_map: host_no = 0
+
+Mon Nov 13 07:26:03.556 2023 : cli_get_adapter_map: domain=0, bus=5 slot=0 func=0
+
+Mon Nov 13 07:26:03.556 2023 : cli_sysfs_scan_for_new_devices:  Exiting rval 0xFFFFFFFF
+
+Mon Nov 13 07:26:03.556 2023 : controller count as per dev node list=1 
+Mon Nov 13 07:26:03.556 2023 : LinuxControllerExplorer::explore ctrlCount=1
+Mon Nov 13 07:26:03.556 2023 : returning LinuxControllerExplorer::explore ctrlIdListPtr
+Mon Nov 13 07:26:03.556 2023 : SlItControllerExplorer::explore - Entering
+Mon Nov 13 07:26:03.556 2023 : StorelibItDp::processLibCommand SL request sent
+Mon Nov 13 07:26:03.557 2023 : StorelibItDp::processLibCommand SL responded with retcode=0
+Mon Nov 13 07:26:03.557 2023 : StorelibItDp::processLibCommand SL request sent
+Mon Nov 13 07:26:03.557 2023 : StorelibItDp::processLibCommand SL responded with retcode=0
+Mon Nov 13 07:26:03.557 2023 : SlItControllerExplorer::explore - Getting the StoreLIB instance for SAS3.5 IT controller
+Mon Nov 13 07:26:03.557 2023 : StorelibItDp::processLibCommand SL request sent
+Mon Nov 13 07:26:03.588 2023 : StorelibItDp::processLibCommand SL responded with retcode=0
+Mon Nov 13 07:26:03.588 2023 : SlItControllerExplorer::explore - Issuing SL_GET_CTRL_LIST to SLIT
+Mon Nov 13 07:26:03.589 2023 : StorelibItDp::processLibCommand SL request sent
+Mon Nov 13 07:26:03.589 2023 : StorelibItDp::processLibCommand SL responded with retcode=0
+Mon Nov 13 07:26:03.589 2023 : SlItControllerExplorer::explore - Issuing SL_GET_CTRL_LIST to SLIT - retCode:0x0
+Mon Nov 13 07:26:03.589 2023 : SlItControllerExplorer::explore - Controller count:1
+Mon Nov 13 07:26:03.589 2023 : SlItControllerExplorer::explore - Controller count index:0
+Mon Nov 13 07:26:03.589 2023 : SlItControllerExplorer::explore - Issuing SL_GET_PCI_INFO to SLIT
+Mon Nov 13 07:26:03.589 2023 : StorelibItDp::processLibCommand SL request sent
+Mon Nov 13 07:26:03.589 2023 : StorelibItDp::processLibCommand SL responded with retcode=0
+Mon Nov 13 07:26:03.589 2023 : SlItControllerExplorer::explore - Issuing SL_GET_PCI_INFO to SLIT - retCode:0x0
+Mon Nov 13 07:26:03.589 2023 : SlItControllerExplorer::explore - Domain:0 Bus:65 device:0 Function:0
+Mon Nov 13 07:26:03.589 2023 : SlItControllerExplorer::explore - Issuing SL_GET_CTRL_INFO to SLIT
+Mon Nov 13 07:26:03.589 2023 : StorelibItDp::processLibCommand SL request sent
+Mon Nov 13 07:26:03.590 2023 : StorelibItDp::processLibCommand SL responded with retcode=0
+Mon Nov 13 07:26:03.590 2023 : SlItControllerExplorer::explore - Issuing SL_GET_CTRL_INFO to SLIT - retCode:0x0
+Mon Nov 13 07:26:03.590 2023 : SlItControllerExplorer::explore - Adapter is good
+Mon Nov 13 07:26:03.590 2023 : LinuxMfiDataProvider::fireIoctl DCMD=1010000 mbox.w[0]=1 mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.590 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.590 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.590 2023 : LinuxMfiDataProvider::fireIoctl DCMD=10e8481 mbox.w[0]=0 mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.590 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.590 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.591 2023 : initializing the RaidManager Instance 
+Mon Nov 13 07:26:03.591 2023 : LinuxMfiDataProvider::fireIoctl DCMD=1010000 mbox.w[0]=1 mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.592 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.592 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.592 2023 : Entering RmDataMfi::initialize
+Mon Nov 13 07:26:03.592 2023 : Entering RmDataMfi::getPdList
+Mon Nov 13 07:26:03.592 2023 : Entering MfiData::getMrPdList
+Mon Nov 13 07:26:03.592 2023 : LinuxMfiDataProvider::fireIoctl DCMD=2010000 mbox.w[0]=0 mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.592 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.592 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.592 2023 : LinuxMfiDataProvider::fireIoctl DCMD=2010000 mbox.w[0]=0 mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.592 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.592 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.592 2023 : Exiting MfiData::getMrPdList, PD count = 9
+Mon Nov 13 07:26:03.592 2023 : Entering RmDataMfi::createPd
+Mon Nov 13 07:26:03.592 2023 : Exiting RmDataMfi::createPd
+Mon Nov 13 07:26:03.592 2023 : Entering RmDataMfi::createPd
+Mon Nov 13 07:26:03.592 2023 : Exiting RmDataMfi::createPd
+Mon Nov 13 07:26:03.592 2023 : Entering RmDataMfi::createPd
+Mon Nov 13 07:26:03.592 2023 : Exiting RmDataMfi::createPd
+Mon Nov 13 07:26:03.592 2023 : Entering RmDataMfi::createPd
+Mon Nov 13 07:26:03.592 2023 : Exiting RmDataMfi::createPd
+Mon Nov 13 07:26:03.592 2023 : Entering RmDataMfi::createPd
+Mon Nov 13 07:26:03.592 2023 : Exiting RmDataMfi::createPd
+Mon Nov 13 07:26:03.592 2023 : Entering RmDataMfi::createPd
+Mon Nov 13 07:26:03.592 2023 : Exiting RmDataMfi::createPd
+Mon Nov 13 07:26:03.592 2023 : Entering RmDataMfi::createPd
+Mon Nov 13 07:26:03.592 2023 : Exiting RmDataMfi::createPd
+Mon Nov 13 07:26:03.592 2023 : Entering RmDataMfi::createPd
+Mon Nov 13 07:26:03.592 2023 : Exiting RmDataMfi::createPd
+Mon Nov 13 07:26:03.592 2023 : Entering RmDataMfi::createPd
+Mon Nov 13 07:26:03.592 2023 : Exiting RmDataMfi::createPd
+Mon Nov 13 07:26:03.592 2023 : Exiting RmDataMfi::getPdList
+Mon Nov 13 07:26:03.592 2023 : Exiting RmDataMfi::initialize
+Mon Nov 13 07:26:03.592 2023 : Exiting RmDataMfi::initialize
+Mon Nov 13 07:26:03.592 2023 : Entering RmDataMfi::createAdapter
+Mon Nov 13 07:26:03.592 2023 : Exiting RmDataMfi::createAdapter
+Mon Nov 13 07:26:03.592 2023 : Entering RmDataMfi::getUncfgPdList
+Mon Nov 13 07:26:03.592 2023 : Entering MfiData::getMrPdList
+Mon Nov 13 07:26:03.592 2023 : Entering MfiData::getMrCfgData
+Mon Nov 13 07:26:03.592 2023 : Entering AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.592 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.592 2023 : LinuxMfiDataProvider::fireIoctl DCMD=1010000 mbox.w[0]=1 mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.592 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.592 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.592 2023 : Exiting AdapterDataMfi::getCtlrInfo retCode = 0
+Mon Nov 13 07:26:03.592 2023 : Exiting  AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.592 2023 : LinuxMfiDataProvider::fireIoctl DCMD=4010000 mbox.w[0]=1 mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.593 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.593 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.593 2023 : LinuxMfiDataProvider::fireIoctl DCMD=4010000 mbox.w[0]=1 mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.593 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.593 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.593 2023 : Logical drive count = 1, Spare count = 0
+Mon Nov 13 07:26:03.593 2023 : Exiting MfiData::getMrCfgData 
+Mon Nov 13 07:26:03.593 2023 : Entering RmDataMfi::getUncfgPdList- getMrCfgData - retCode:0
+Mon Nov 13 07:26:03.593 2023 : Entering AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.593 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.593 2023 : Exiting  AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.593 2023 : Exiting RmDataMfi::getUncfgPdList
+Mon Nov 13 07:26:03.593 2023 : Entering RmDataMfi::getSystemPdList
+Mon Nov 13 07:26:03.593 2023 : Entering MfiData::getMrSystemPdList
+Mon Nov 13 07:26:03.593 2023 : LinuxMfiDataProvider::fireIoctl DCMD=2010100 mbox.w[0]=0 mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.593 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.593 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.593 2023 : LinuxMfiDataProvider::fireIoctl DCMD=2010100 mbox.w[0]=0 mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.593 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.593 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.593 2023 : Exiting MfiData::getMrSystemPdList PD count = 9,  retCode = 0
+Mon Nov 13 07:26:03.593 2023 : RmDataMfi::getSystemPdList slotNumber= 0, deviceId=10
+Mon Nov 13 07:26:03.593 2023 : Entering RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.593 2023 : Entering RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.593 2023 : LinuxMfiDataProvider::fireIoctl DCMD=2020000 mbox.w[0]=a mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.593 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.593 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.593 2023 : Drive deviceID=10 (PdDataMfi::getMrPdInfo) retCode=0
+Mon Nov 13 07:26:03.593 2023 : Exiting RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.593 2023 : Exiting RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.593 2023 : Drive deviceID=10 (PdDataMfi::getFwState) value=24
+Mon Nov 13 07:26:03.593 2023 : RmDataMfi::getSystemPdList slotNumber= 1, deviceId=11
+Mon Nov 13 07:26:03.593 2023 : Entering RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.593 2023 : Entering RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.593 2023 : LinuxMfiDataProvider::fireIoctl DCMD=2020000 mbox.w[0]=b mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.593 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.593 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.593 2023 : Drive deviceID=11 (PdDataMfi::getMrPdInfo) retCode=0
+Mon Nov 13 07:26:03.593 2023 : Exiting RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.593 2023 : Exiting RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.593 2023 : Drive deviceID=11 (PdDataMfi::getFwState) value=24
+Mon Nov 13 07:26:03.593 2023 : RmDataMfi::getSystemPdList slotNumber= 3, deviceId=16
+Mon Nov 13 07:26:03.593 2023 : Entering RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.593 2023 : Entering RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.593 2023 : LinuxMfiDataProvider::fireIoctl DCMD=2020000 mbox.w[0]=10 mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.593 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.593 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.593 2023 : Drive deviceID=16 (PdDataMfi::getMrPdInfo) retCode=0
+Mon Nov 13 07:26:03.593 2023 : Exiting RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.593 2023 : Exiting RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.593 2023 : Drive deviceID=16 (PdDataMfi::getFwState) value=24
+Mon Nov 13 07:26:03.593 2023 : RmDataMfi::getSystemPdList slotNumber= 7, deviceId=17
+Mon Nov 13 07:26:03.593 2023 : Entering RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.593 2023 : Entering RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.593 2023 : LinuxMfiDataProvider::fireIoctl DCMD=2020000 mbox.w[0]=11 mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.593 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.593 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.593 2023 : Drive deviceID=17 (PdDataMfi::getMrPdInfo) retCode=0
+Mon Nov 13 07:26:03.593 2023 : Exiting RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.593 2023 : Exiting RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.593 2023 : Drive deviceID=17 (PdDataMfi::getFwState) value=24
+Mon Nov 13 07:26:03.593 2023 : RmDataMfi::getSystemPdList slotNumber= 2, deviceId=18
+Mon Nov 13 07:26:03.593 2023 : Entering RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.593 2023 : Entering RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.593 2023 : LinuxMfiDataProvider::fireIoctl DCMD=2020000 mbox.w[0]=12 mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.593 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.593 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.593 2023 : Drive deviceID=18 (PdDataMfi::getMrPdInfo) retCode=0
+Mon Nov 13 07:26:03.593 2023 : Exiting RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.593 2023 : Exiting RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.593 2023 : Drive deviceID=18 (PdDataMfi::getFwState) value=24
+Mon Nov 13 07:26:03.593 2023 : RmDataMfi::getSystemPdList slotNumber= 6, deviceId=19
+Mon Nov 13 07:26:03.593 2023 : Entering RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.593 2023 : Entering RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.593 2023 : LinuxMfiDataProvider::fireIoctl DCMD=2020000 mbox.w[0]=13 mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.593 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.593 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.593 2023 : Drive deviceID=19 (PdDataMfi::getMrPdInfo) retCode=0
+Mon Nov 13 07:26:03.593 2023 : Exiting RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.593 2023 : Exiting RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.593 2023 : Drive deviceID=19 (PdDataMfi::getFwState) value=24
+Mon Nov 13 07:26:03.593 2023 : RmDataMfi::getSystemPdList slotNumber= 4, deviceId=20
+Mon Nov 13 07:26:03.593 2023 : Entering RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.593 2023 : Entering RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.593 2023 : LinuxMfiDataProvider::fireIoctl DCMD=2020000 mbox.w[0]=14 mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.593 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.593 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.593 2023 : Drive deviceID=20 (PdDataMfi::getMrPdInfo) retCode=0
+Mon Nov 13 07:26:03.593 2023 : Exiting RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.593 2023 : Exiting RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.593 2023 : Drive deviceID=20 (PdDataMfi::getFwState) value=24
+Mon Nov 13 07:26:03.593 2023 : RmDataMfi::getSystemPdList slotNumber= 5, deviceId=21
+Mon Nov 13 07:26:03.594 2023 : Entering RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.594 2023 : Entering RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.594 2023 : LinuxMfiDataProvider::fireIoctl DCMD=2020000 mbox.w[0]=15 mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.594 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.594 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.594 2023 : Drive deviceID=21 (PdDataMfi::getMrPdInfo) retCode=0
+Mon Nov 13 07:26:03.594 2023 : Exiting RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.594 2023 : Exiting RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.594 2023 : Drive deviceID=21 (PdDataMfi::getFwState) value=24
+Mon Nov 13 07:26:03.594 2023 : RmDataMfi::getSystemPdList slotNumber= 255, deviceId=252
+Mon Nov 13 07:26:03.594 2023 : Entering RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.594 2023 : Entering RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.594 2023 : LinuxMfiDataProvider::fireIoctl DCMD=2020000 mbox.w[0]=fc mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.594 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.594 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.594 2023 : Drive deviceID=252 (PdDataMfi::getMrPdInfo) retCode=0
+Mon Nov 13 07:26:03.594 2023 : Exiting RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.594 2023 : Exiting RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.594 2023 : Drive deviceID=252 (PdDataMfi::getFwState) value=0
+Mon Nov 13 07:26:03.594 2023 : Exiting RmDataMfi::getSystemPdList
+Mon Nov 13 07:26:03.594 2023 : Entering RmDataMfi::getRmCfg
+Mon Nov 13 07:26:03.594 2023 : Entering MfiData::getMrCfgData
+Mon Nov 13 07:26:03.594 2023 : Entering AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.594 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.594 2023 : Exiting  AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.594 2023 : Exiting RmDataMfi::getRmCfg
+Mon Nov 13 07:26:03.594 2023 : Entering RmDataMfi::createRmCfg
+Mon Nov 13 07:26:03.594 2023 : Entering AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.594 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.594 2023 : Exiting  AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.594 2023 : Entering RmDataMfi::createVd
+Mon Nov 13 07:26:03.594 2023 : Exiting RmDataMfi::createVd
+Mon Nov 13 07:26:03.594 2023 : Entering RmDataMfi::searchArrayList
+Mon Nov 13 07:26:03.594 2023 : Exiting RmDataMfi::searchArrayList
+Mon Nov 13 07:26:03.594 2023 : Entering RmDataMfi::searchArrayList
+Mon Nov 13 07:26:03.594 2023 : Exiting RmDataMfi::searchArrayList
+Mon Nov 13 07:26:03.594 2023 : Entering RmDataMfi::createArray
+Mon Nov 13 07:26:03.594 2023 : Exiting RmDataMfi::createArray
+Mon Nov 13 07:26:03.594 2023 : Entering RmDataMfi::assignPdToArray
+Mon Nov 13 07:26:03.594 2023 : Entering AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.594 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.594 2023 : Exiting  AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.594 2023 : Entering RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.594 2023 : Entering RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.594 2023 : Exiting RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.594 2023 : Exiting RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.594 2023 : Entering RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.594 2023 : Entering RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.594 2023 : Exiting RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.594 2023 : Exiting RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.594 2023 : Entering RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.594 2023 : Entering RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.594 2023 : Exiting RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.594 2023 : Exiting RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.594 2023 : Entering RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.594 2023 : Entering RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.594 2023 : Exiting RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.594 2023 : Exiting RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.594 2023 : Entering RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.594 2023 : Entering RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.594 2023 : Exiting RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.594 2023 : Exiting RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.594 2023 : Entering RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.594 2023 : Entering RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.594 2023 : Exiting RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.594 2023 : Exiting RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.594 2023 : Entering RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.594 2023 : Entering RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.594 2023 : Exiting RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.594 2023 : Exiting RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.594 2023 : Entering RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.594 2023 : Entering RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.594 2023 : Exiting RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.594 2023 : Exiting RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.594 2023 : Exiting RmDataMfi::assignPdToArray
+Mon Nov 13 07:26:03.594 2023 : Entering RmDataMfi::createDiskGroup
+Mon Nov 13 07:26:03.594 2023 : Exiting RmDataMfi::createDiskGroup
+Mon Nov 13 07:26:03.594 2023 : Entering RmDataMfi::createSpan
+Mon Nov 13 07:26:03.594 2023 : Exiting RmDataMfi::createSpan
+Mon Nov 13 07:26:03.594 2023 : Drive deviceID=10 (PdDataMfi::isPdMissing) value=0
+Mon Nov 13 07:26:03.594 2023 : Drive deviceID=10 (PdDataMfi::doesPdContainFrnCfg) = 0
+Mon Nov 13 07:26:03.594 2023 : Drive deviceID=11 (PdDataMfi::isPdMissing) value=0
+Mon Nov 13 07:26:03.594 2023 : Drive deviceID=11 (PdDataMfi::doesPdContainFrnCfg) = 0
+Mon Nov 13 07:26:03.594 2023 : Drive deviceID=18 (PdDataMfi::isPdMissing) value=0
+Mon Nov 13 07:26:03.594 2023 : Drive deviceID=18 (PdDataMfi::doesPdContainFrnCfg) = 0
+Mon Nov 13 07:26:03.594 2023 : Drive deviceID=16 (PdDataMfi::isPdMissing) value=0
+Mon Nov 13 07:26:03.594 2023 : Drive deviceID=16 (PdDataMfi::doesPdContainFrnCfg) = 0
+Mon Nov 13 07:26:03.594 2023 : Drive deviceID=20 (PdDataMfi::isPdMissing) value=0
+Mon Nov 13 07:26:03.594 2023 : Drive deviceID=20 (PdDataMfi::doesPdContainFrnCfg) = 0
+Mon Nov 13 07:26:03.594 2023 : Drive deviceID=21 (PdDataMfi::isPdMissing) value=0
+Mon Nov 13 07:26:03.594 2023 : Drive deviceID=21 (PdDataMfi::doesPdContainFrnCfg) = 0
+Mon Nov 13 07:26:03.594 2023 : Drive deviceID=19 (PdDataMfi::isPdMissing) value=0
+Mon Nov 13 07:26:03.594 2023 : Drive deviceID=19 (PdDataMfi::doesPdContainFrnCfg) = 0
+Mon Nov 13 07:26:03.594 2023 : Drive deviceID=17 (PdDataMfi::isPdMissing) value=0
+Mon Nov 13 07:26:03.594 2023 : Drive deviceID=17 (PdDataMfi::doesPdContainFrnCfg) = 0
+Mon Nov 13 07:26:03.594 2023 : Exiting RmDataMfi::createRmCfg
+Mon Nov 13 07:26:03.594 2023 : Entering AdapterDataMfi::isAllowHDDSSDMix
+Mon Nov 13 07:26:03.594 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.594 2023 : Exiting AdapterDataMfi::isAllowHDDSSDMix retCode = 0
+Mon Nov 13 07:26:03.594 2023 : Entering AdapterDataMfi::isAllowMixInLd
+Mon Nov 13 07:26:03.594 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.594 2023 : Entering AdapterDataMfi::isAllowSSDMixInLd
+Mon Nov 13 07:26:03.594 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.594 2023 : Exiting AdapterDataMfi::isAllowSSDMixInLd
+Mon Nov 13 07:26:03.594 2023 : Entering AdapterDataMfi::getOem
+Mon Nov 13 07:26:03.594 2023 : LinuxMfiDataProvider::fireIoctl DCMD=10e8481 mbox.w[0]=0 mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.594 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.594 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.594 2023 : Exiting AdapterDataMfi::getOem
+Mon Nov 13 07:26:03.594 2023 : Entering AdapterDataMfi::doesAppNeedToBeUpdated
+Mon Nov 13 07:26:03.594 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.594 2023 : Exiting AdapterDataMfi::doesAppNeedToBeUpdated
+Mon Nov 13 07:26:03.594 2023 : Entering AdapterDataMfi::doesFwNeedToBeUpdated
+Mon Nov 13 07:26:03.594 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.594 2023 : Exiting AdapterDataMfi::doesFwNeedToBeUpdated retCode = 0
+Mon Nov 13 07:26:03.594 2023 : Entering MWCliRootCp::process ver=007.2408.0000.0000 Nov 15, 2022 copyright=2022
+Mon Nov 13 07:26:03.594 2023 : Entering SwCtPrCp::process
+Mon Nov 13 07:26:03.594 2023 : LinuxMfiDataProvider::fireIoctl DCMD=1010000 mbox.w[0]=1 mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.595 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.595 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.595 2023 : Entering AdapterDataMfi::isJBODSupported
+Mon Nov 13 07:26:03.595 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.595 2023 : Exiting AdapterDataMfi::isJBODSupported
+Mon Nov 13 07:26:03.595 2023 : SwCtPrCp::process supportJBODorEPD=0 autoCfgOpt=0
+Mon Nov 13 07:26:03.595 2023 : Entering AdapterDataMfi::getOem
+Mon Nov 13 07:26:03.595 2023 : LinuxMfiDataProvider::fireIoctl DCMD=10e8481 mbox.w[0]=0 mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.595 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.595 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.595 2023 : Exiting AdapterDataMfi::getOem
+Mon Nov 13 07:26:03.595 2023 : Entering AdapterDataMfi::getBasicCtrlInfo
+Mon Nov 13 07:26:03.595 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.595 2023 : LinuxMfiDataProvider::fireIoctl DCMD=10e0301 mbox.w[0]=0 mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.595 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.595 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.595 2023 : Entering AdapterDataMfi::getMFCdata
+Mon Nov 13 07:26:03.595 2023 : LinuxMfiDataProvider::fireIoctl DCMD=10e0201 mbox.w[0]=0 mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.595 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.595 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.595 2023 : Exiting AdapterDataMfi::getMFCdata retCode = 0
+Mon Nov 13 07:26:03.595 2023 : Entering AdapterDataMfi::getOem
+Mon Nov 13 07:26:03.595 2023 : LinuxMfiDataProvider::fireIoctl DCMD=10e8481 mbox.w[0]=0 mbox.w[1]=0 mbox.w[2]=0
+
+Mon Nov 13 07:26:03.595 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.595 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.595 2023 : Exiting AdapterDataMfi::getOem
+Mon Nov 13 07:26:03.595 2023 : Entering AdapterDataMfi::getCtrlTime
+Mon Nov 13 07:26:03.595 2023 : LinuxMfiDataProvider::fireIoctl DCMD=1080101 mbox.w[0]=0 mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.595 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.595 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.595 2023 : Exiting AdapterDataMfi::getCtrlTime
+Mon Nov 13 07:26:03.595 2023 : Entering AdapterDataMfi::getPersonality
+Mon Nov 13 07:26:03.595 2023 : LinuxMfiDataProvider::fireIoctl DCMD=11c0100 mbox.w[0]=0 mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.595 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.595 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.595 2023 : Exiting AdapterDataMfi::getPersonality
+Mon Nov 13 07:26:03.595 2023 : Entering AdapterDataMfi::getShowBus
+Mon Nov 13 07:26:03.595 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.595 2023 : Entering AdapterDataMfi::getShowBus - Getting PCI info
+Mon Nov 13 07:26:03.595 2023 : Exiting AdapterDataMfi::getShowBus retcode = 0
+Mon Nov 13 07:26:03.595 2023 : Exiting AdapterDataMfi::getBasicCtrlInfo
+Mon Nov 13 07:26:03.595 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.595 2023 : Entering ForeignCp::process_show
+Mon Nov 13 07:26:03.595 2023 : Entering RmDataMfi::getFrnCfgCount
+Mon Nov 13 07:26:03.595 2023 : LinuxMfiDataProvider::fireIoctl DCMD=4060100 mbox.w[0]=0 mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.595 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.595 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.595 2023 : Exiting RmDataMfi::getFrnCfgCount
+Mon Nov 13 07:26:03.595 2023 : SwCtPrCp::process calling ForeignCp::process_show retCode=0
+Mon Nov 13 07:26:03.595 2023 : Entering SwCtPrCp::getDGInfo
+Mon Nov 13 07:26:03.595 2023 : Entering AdapterDataMfi::isEnhancedRaid1Esupported
+Mon Nov 13 07:26:03.595 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.595 2023 : Exiting AdapterDataMfi::isEnhancedRaid1Esupported
+Mon Nov 13 07:26:03.595 2023 : VdDataMfi::isVolumeEPD ID=0 epd=0
+Mon Nov 13 07:26:03.595 2023 : Entering AdapterDataMfi::getOem
+Mon Nov 13 07:26:03.595 2023 : LinuxMfiDataProvider::fireIoctl DCMD=10e8481 mbox.w[0]=0 mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.595 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.595 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.595 2023 : Exiting AdapterDataMfi::getOem
+Mon Nov 13 07:26:03.595 2023 : VdDataMfi::isVolumeEPD ID=0 epd=0
+Mon Nov 13 07:26:03.595 2023 : VdDataMfi::getDgIndex targetId=0, dgNum =-289989873
+Mon Nov 13 07:26:03.595 2023 : VdDataMfi::getVdInfo displaying VD ID=0/0 
+Mon Nov 13 07:26:03.595 2023 : VdDataMfi::getPrl targetId=0, PRL=0
+Mon Nov 13 07:26:03.596 2023 : VdDataMfi::getSpanDepth targetId=0, spanDepth=1
+Mon Nov 13 07:26:03.596 2023 : VdDataMfi::getRAIDLvl ID=0 prl=0, spanDepth=1
+Mon Nov 13 07:26:03.596 2023 : Entering AdapterDataMfi::isTreatR1EAsR10
+Mon Nov 13 07:26:03.596 2023 : Entering AdapterDataMfi::getMFCdata
+Mon Nov 13 07:26:03.596 2023 : Exiting AdapterDataMfi::isTreatR1EAsR10
+Mon Nov 13 07:26:03.596 2023 : VdDataMfi::getSSCDType ID=0 nSSCDType=0 
+Mon Nov 13 07:26:03.596 2023 : VdDataMfi::isVdSSCD ID=0 isSSCD=0
+Mon Nov 13 07:26:03.596 2023 : VdDataMfi::getState targetId=0, state=3
+Mon Nov 13 07:26:03.596 2023 : VdDataMfi::getConsistentState targetId=0, state=1
+Mon Nov 13 07:26:03.596 2023 : VdDataMfi::getDefaultCachePolicy targetId=0, currentCachePolicy=4
+Mon Nov 13 07:26:03.596 2023 : VdDataMfi::getMrLdInfo targetId=0
+Mon Nov 13 07:26:03.596 2023 : LinuxMfiDataProvider::fireIoctl DCMD=3020000 mbox.w[0]=0 mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.596 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.596 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.596 2023 : VdDataMfi::getMrLdProperties targetId=0
+Mon Nov 13 07:26:03.596 2023 : VdDataMfi::getMrLdInfo targetId=0
+Mon Nov 13 07:26:03.596 2023 : LinuxMfiDataProvider::fireIoctl DCMD=3020000 mbox.w[0]=0 mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.596 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.596 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.596 2023 : VdDataMfi::getMrLdProperties targetId=0
+Mon Nov 13 07:26:03.596 2023 : Entering AdapterDataMfi::isSSCSupported
+Mon Nov 13 07:26:03.596 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.596 2023 : Exiting AdapterDataMfi::isSSCSupported
+Mon Nov 13 07:26:03.596 2023 : Entering AdapterDataMfi::getCcSchedMode
+Mon Nov 13 07:26:03.596 2023 : Entering AdapterDataMfi::getCcScProperties
+Mon Nov 13 07:26:03.596 2023 : LinuxMfiDataProvider::fireIoctl DCMD=1140200 mbox.w[0]=1 mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.596 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.596 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.596 2023 : Exiting AdapterDataMfi::getCcSchedMode
+Mon Nov 13 07:26:03.596 2023 : Entering AdapterDataMfi::isCtrlNytroMegaRaid
+Mon Nov 13 07:26:03.596 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.596 2023 : ExitingAdapterDataMfi::isCtrlNytroMegaRaid
+Mon Nov 13 07:26:03.596 2023 : VdDataMfi::getNumDrivesPerSpan targetId=0, numdrvsPerspan=8
+Mon Nov 13 07:26:03.596 2023 : VdDataMfi::getSpanDepth targetId=0, spanDepth=1
+Mon Nov 13 07:26:03.596 2023 : VdDataMfi::getPrl targetId=0, PRL=0
+Mon Nov 13 07:26:03.596 2023 : Entering RmDataMfi::getPdListInLd
+Mon Nov 13 07:26:03.596 2023 : Entering AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.596 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.596 2023 : Exiting  AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.596 2023 : Entering MfiData::getMrCfgData
+Mon Nov 13 07:26:03.596 2023 : Entering AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.596 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.596 2023 : Exiting  AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.596 2023 : Exiting RmDataMfi::getPdListInLd
+Mon Nov 13 07:26:03.596 2023 : Drive deviceID=10 (PdDataMfi::isPdMissing) value=0
+Mon Nov 13 07:26:03.596 2023 : Drive deviceID=10 (PdDataMfi::getBlockSize) value=512
+Mon Nov 13 07:26:03.596 2023 : VdDataMfi::getBlockSizeOfVd ID=0 blocksizeOfVd=512 
+Mon Nov 13 07:26:03.596 2023 : VdDataMfi::getName targetId=0, name =md0
+Mon Nov 13 07:26:03.596 2023 : VdDataMfi::getDsblPIInfo ID=0 dsblPI=0
+Mon Nov 13 07:26:03.596 2023 : VdDataMfi::getEncryptionType targetId=0, encryptionType=0
+Mon Nov 13 07:26:03.596 2023 : VdDataMfi::getPowerPolicy ID=0 powerPolicy=0
+Mon Nov 13 07:26:03.596 2023 : VdDataMfi::getDefaultCachePolicy targetId=0, diskCachePolicy=1
+Mon Nov 13 07:26:03.596 2023 : VdDataMfi::getCurrentAccessPolicy ID=0 currAccessPolicy=0
+Mon Nov 13 07:26:03.596 2023 : VdDataMfi::getPrl targetId=0, PRL=0
+Mon Nov 13 07:26:03.596 2023 : Drive deviceID=10 (PdDataMfi::isPdMissing) value=0
+Mon Nov 13 07:26:03.596 2023 : Drive deviceID=10 (PdDataMfi::getBlockSize) value=512
+Mon Nov 13 07:26:03.596 2023 : LinuxMfiDataProvider::fireIoctl DCMD=3080000 mbox.w[0]=0 mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.596 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.596 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.596 2023 : VdDataMfi::getPrl targetId=0, PRL=0
+Mon Nov 13 07:26:03.596 2023 : Entering AdapterDataMfi::isEnhancedRaid1Esupported
+Mon Nov 13 07:26:03.596 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.596 2023 : Exiting AdapterDataMfi::isEnhancedRaid1Esupported
+Mon Nov 13 07:26:03.596 2023 : Entering AdapterDataMfi::isSRL03Supported
+Mon Nov 13 07:26:03.596 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.596 2023 : Exiting AdapterDataMfi::isSRL03Supported retCode = 0
+Mon Nov 13 07:26:03.596 2023 : VdDataMfi::getSrl targetId=0, SRL=0
+Mon Nov 13 07:26:03.596 2023 : VdDataMfi::getNumDrivesPerSpan targetId=0, numdrvsPerspan=8
+Mon Nov 13 07:26:03.596 2023 : VdDataMfi::getSpanDepth targetId=0, spanDepth=1
+Mon Nov 13 07:26:03.596 2023 : VdDataMfi::getPrl targetId=0, PRL=0
+Mon Nov 13 07:26:03.596 2023 : VdDataMfi::getPrl targetId=0, PRL=0
+Mon Nov 13 07:26:03.596 2023 : VdDataMfi::getSpanDepth targetId=0, spanDepth=1
+Mon Nov 13 07:26:03.596 2023 : VdDataMfi::getNumDrivesPerSpan targetId=0, numdrvsPerspan=8
+Mon Nov 13 07:26:03.596 2023 : VdDataMfi::getPrl targetId=0, PRL=0
+Mon Nov 13 07:26:03.596 2023 : VdDataMfi::getPrl targetId=0, PRL=0
+Mon Nov 13 07:26:03.596 2023 : Entering AdapterDataMfi::isEnhancedRaid1Esupported
+Mon Nov 13 07:26:03.596 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.596 2023 : Exiting AdapterDataMfi::isEnhancedRaid1Esupported
+Mon Nov 13 07:26:03.596 2023 : Entering AdapterDataMfi::isSRL03Supported
+Mon Nov 13 07:26:03.596 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.596 2023 : Exiting AdapterDataMfi::isSRL03Supported retCode = 0
+Mon Nov 13 07:26:03.596 2023 : VdDataMfi::getSrl targetId=0, SRL=0
+Mon Nov 13 07:26:03.596 2023 : VdDataMfi::getNumDrivesPerSpan targetId=0, numdrvsPerspan=8
+Mon Nov 13 07:26:03.596 2023 : VdDataMfi::getSpanDepth targetId=0, spanDepth=1
+Mon Nov 13 07:26:03.596 2023 : VdDataMfi::getPrl targetId=0, PRL=0
+Mon Nov 13 07:26:03.596 2023 : VdDataMfi::getPrl targetId=0, PRL=0
+Mon Nov 13 07:26:03.596 2023 : VdDataMfi::getSpanDepth targetId=0, spanDepth=1
+Mon Nov 13 07:26:03.596 2023 : VdDataMfi::getNumDrivesPerSpan targetId=0, numdrvsPerspan=8
+Mon Nov 13 07:26:03.596 2023 : VdDataMfi::getPrl targetId=0, PRL=0
+Mon Nov 13 07:26:03.596 2023 : VdDataMfi::getState targetId=0, state=3
+Mon Nov 13 07:26:03.596 2023 : Drive deviceID=10 (PdDataMfi::isPdMissing) value=0
+Mon Nov 13 07:26:03.596 2023 : Drive deviceID=10 (PdDataMfi::PdInfo) retCode=0 
+Mon Nov 13 07:26:03.596 2023 : Drive deviceID=10 (PdDataMfi::isDedicatedHSP) value=0 
+Mon Nov 13 07:26:03.596 2023 : Entering AdapterDataMfi::isEnhancedRaid1Esupported
+Mon Nov 13 07:26:03.596 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.596 2023 : Exiting AdapterDataMfi::isEnhancedRaid1Esupported
+Mon Nov 13 07:26:03.596 2023 : VdDataMfi::getPrl targetId=0, PRL=0
+Mon Nov 13 07:26:03.596 2023 : Entering RmDataMfi::getPdListInLd
+Mon Nov 13 07:26:03.596 2023 : Entering AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.596 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.596 2023 : Exiting  AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.596 2023 : Entering MfiData::getMrCfgData
+Mon Nov 13 07:26:03.596 2023 : Entering AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.596 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.596 2023 : Exiting  AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.596 2023 : Exiting RmDataMfi::getPdListInLd
+Mon Nov 13 07:26:03.596 2023 : Drive deviceID=10 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.596 2023 : Drive deviceID=10 (PdDataMfi::getPdConfigInfo) DG=0 span=0 arm=0
+Mon Nov 13 07:26:03.596 2023 : Drive deviceID=10 (PdDataMfi::getSATAPDRevision) 
+Mon Nov 13 07:26:03.596 2023 : Drive deviceID=10 (PdDataMfi::getSATAIdentifyData) 
+Mon Nov 13 07:26:03.597 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.597 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.597 2023 : Drive deviceID=10 (PdDataMfi::getProgress) 
+Mon Nov 13 07:26:03.597 2023 : LinuxMfiDataProvider::fireIoctl DCMD=2060000 mbox.w[0]=a mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.597 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.597 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.597 2023 : Drive deviceID=10 (PdDataMfi::doesPdContainFrnCfg) = 0
+Mon Nov 13 07:26:03.597 2023 : Drive deviceID=11 (PdDataMfi::isPdMissing) value=0
+Mon Nov 13 07:26:03.597 2023 : Drive deviceID=11 (PdDataMfi::PdInfo) retCode=0 
+Mon Nov 13 07:26:03.597 2023 : Drive deviceID=11 (PdDataMfi::isDedicatedHSP) value=0 
+Mon Nov 13 07:26:03.597 2023 : Entering AdapterDataMfi::isEnhancedRaid1Esupported
+Mon Nov 13 07:26:03.597 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.597 2023 : Exiting AdapterDataMfi::isEnhancedRaid1Esupported
+Mon Nov 13 07:26:03.597 2023 : VdDataMfi::getPrl targetId=0, PRL=0
+Mon Nov 13 07:26:03.597 2023 : Entering RmDataMfi::getPdListInLd
+Mon Nov 13 07:26:03.597 2023 : Entering AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.597 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.597 2023 : Exiting  AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.597 2023 : Entering MfiData::getMrCfgData
+Mon Nov 13 07:26:03.597 2023 : Entering AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.597 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.597 2023 : Exiting  AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.597 2023 : Exiting RmDataMfi::getPdListInLd
+Mon Nov 13 07:26:03.597 2023 : Drive deviceID=10 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.597 2023 : Drive deviceID=11 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.597 2023 : Drive deviceID=11 (PdDataMfi::getPdConfigInfo) DG=0 span=0 arm=1
+Mon Nov 13 07:26:03.597 2023 : Drive deviceID=11 (PdDataMfi::getSATAPDRevision) 
+Mon Nov 13 07:26:03.597 2023 : Drive deviceID=11 (PdDataMfi::getSATAIdentifyData) 
+Mon Nov 13 07:26:03.598 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.598 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.598 2023 : Drive deviceID=11 (PdDataMfi::getProgress) 
+Mon Nov 13 07:26:03.598 2023 : LinuxMfiDataProvider::fireIoctl DCMD=2060000 mbox.w[0]=b mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.598 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.598 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.598 2023 : Drive deviceID=11 (PdDataMfi::doesPdContainFrnCfg) = 0
+Mon Nov 13 07:26:03.598 2023 : Drive deviceID=18 (PdDataMfi::isPdMissing) value=0
+Mon Nov 13 07:26:03.598 2023 : Drive deviceID=18 (PdDataMfi::PdInfo) retCode=0 
+Mon Nov 13 07:26:03.598 2023 : Drive deviceID=18 (PdDataMfi::isDedicatedHSP) value=0 
+Mon Nov 13 07:26:03.598 2023 : Entering AdapterDataMfi::isEnhancedRaid1Esupported
+Mon Nov 13 07:26:03.598 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.598 2023 : Exiting AdapterDataMfi::isEnhancedRaid1Esupported
+Mon Nov 13 07:26:03.598 2023 : VdDataMfi::getPrl targetId=0, PRL=0
+Mon Nov 13 07:26:03.598 2023 : Entering RmDataMfi::getPdListInLd
+Mon Nov 13 07:26:03.598 2023 : Entering AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.598 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.598 2023 : Exiting  AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.598 2023 : Entering MfiData::getMrCfgData
+Mon Nov 13 07:26:03.598 2023 : Entering AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.598 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.598 2023 : Exiting  AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.598 2023 : Exiting RmDataMfi::getPdListInLd
+Mon Nov 13 07:26:03.598 2023 : Drive deviceID=10 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.598 2023 : Drive deviceID=11 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.598 2023 : Drive deviceID=18 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.598 2023 : Drive deviceID=18 (PdDataMfi::getPdConfigInfo) DG=0 span=0 arm=2
+Mon Nov 13 07:26:03.598 2023 : Drive deviceID=18 (PdDataMfi::getSATAPDRevision) 
+Mon Nov 13 07:26:03.598 2023 : Drive deviceID=18 (PdDataMfi::getSATAIdentifyData) 
+Mon Nov 13 07:26:03.599 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.599 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.599 2023 : Drive deviceID=18 (PdDataMfi::getProgress) 
+Mon Nov 13 07:26:03.599 2023 : LinuxMfiDataProvider::fireIoctl DCMD=2060000 mbox.w[0]=12 mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.599 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.599 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.599 2023 : Drive deviceID=18 (PdDataMfi::doesPdContainFrnCfg) = 0
+Mon Nov 13 07:26:03.599 2023 : Drive deviceID=16 (PdDataMfi::isPdMissing) value=0
+Mon Nov 13 07:26:03.599 2023 : Drive deviceID=16 (PdDataMfi::PdInfo) retCode=0 
+Mon Nov 13 07:26:03.599 2023 : Drive deviceID=16 (PdDataMfi::isDedicatedHSP) value=0 
+Mon Nov 13 07:26:03.599 2023 : Entering AdapterDataMfi::isEnhancedRaid1Esupported
+Mon Nov 13 07:26:03.599 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.599 2023 : Exiting AdapterDataMfi::isEnhancedRaid1Esupported
+Mon Nov 13 07:26:03.599 2023 : VdDataMfi::getPrl targetId=0, PRL=0
+Mon Nov 13 07:26:03.599 2023 : Entering RmDataMfi::getPdListInLd
+Mon Nov 13 07:26:03.599 2023 : Entering AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.599 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.599 2023 : Exiting  AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.599 2023 : Entering MfiData::getMrCfgData
+Mon Nov 13 07:26:03.599 2023 : Entering AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.599 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.599 2023 : Exiting  AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.599 2023 : Exiting RmDataMfi::getPdListInLd
+Mon Nov 13 07:26:03.599 2023 : Drive deviceID=10 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.599 2023 : Drive deviceID=11 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.599 2023 : Drive deviceID=18 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.599 2023 : Drive deviceID=16 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.599 2023 : Drive deviceID=16 (PdDataMfi::getPdConfigInfo) DG=0 span=0 arm=3
+Mon Nov 13 07:26:03.599 2023 : Drive deviceID=16 (PdDataMfi::getSATAPDRevision) 
+Mon Nov 13 07:26:03.599 2023 : Drive deviceID=16 (PdDataMfi::getSATAIdentifyData) 
+Mon Nov 13 07:26:03.600 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.600 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.600 2023 : Drive deviceID=16 (PdDataMfi::getProgress) 
+Mon Nov 13 07:26:03.600 2023 : LinuxMfiDataProvider::fireIoctl DCMD=2060000 mbox.w[0]=10 mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.600 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.600 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.600 2023 : Drive deviceID=16 (PdDataMfi::doesPdContainFrnCfg) = 0
+Mon Nov 13 07:26:03.600 2023 : Drive deviceID=20 (PdDataMfi::isPdMissing) value=0
+Mon Nov 13 07:26:03.600 2023 : Drive deviceID=20 (PdDataMfi::PdInfo) retCode=0 
+Mon Nov 13 07:26:03.600 2023 : Drive deviceID=20 (PdDataMfi::isDedicatedHSP) value=0 
+Mon Nov 13 07:26:03.600 2023 : Entering AdapterDataMfi::isEnhancedRaid1Esupported
+Mon Nov 13 07:26:03.600 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.600 2023 : Exiting AdapterDataMfi::isEnhancedRaid1Esupported
+Mon Nov 13 07:26:03.600 2023 : VdDataMfi::getPrl targetId=0, PRL=0
+Mon Nov 13 07:26:03.600 2023 : Entering RmDataMfi::getPdListInLd
+Mon Nov 13 07:26:03.600 2023 : Entering AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.600 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.600 2023 : Exiting  AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.600 2023 : Entering MfiData::getMrCfgData
+Mon Nov 13 07:26:03.600 2023 : Entering AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.600 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.600 2023 : Exiting  AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.600 2023 : Exiting RmDataMfi::getPdListInLd
+Mon Nov 13 07:26:03.600 2023 : Drive deviceID=10 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.600 2023 : Drive deviceID=11 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.600 2023 : Drive deviceID=18 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.600 2023 : Drive deviceID=16 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.600 2023 : Drive deviceID=20 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.600 2023 : Drive deviceID=20 (PdDataMfi::getPdConfigInfo) DG=0 span=0 arm=4
+Mon Nov 13 07:26:03.600 2023 : Drive deviceID=20 (PdDataMfi::getSATAPDRevision) 
+Mon Nov 13 07:26:03.600 2023 : Drive deviceID=20 (PdDataMfi::getSATAIdentifyData) 
+Mon Nov 13 07:26:03.601 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.601 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.601 2023 : Drive deviceID=20 (PdDataMfi::getProgress) 
+Mon Nov 13 07:26:03.601 2023 : LinuxMfiDataProvider::fireIoctl DCMD=2060000 mbox.w[0]=14 mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.601 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.601 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.601 2023 : Drive deviceID=20 (PdDataMfi::doesPdContainFrnCfg) = 0
+Mon Nov 13 07:26:03.601 2023 : Drive deviceID=21 (PdDataMfi::isPdMissing) value=0
+Mon Nov 13 07:26:03.601 2023 : Drive deviceID=21 (PdDataMfi::PdInfo) retCode=0 
+Mon Nov 13 07:26:03.601 2023 : Drive deviceID=21 (PdDataMfi::isDedicatedHSP) value=0 
+Mon Nov 13 07:26:03.601 2023 : Entering AdapterDataMfi::isEnhancedRaid1Esupported
+Mon Nov 13 07:26:03.601 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.601 2023 : Exiting AdapterDataMfi::isEnhancedRaid1Esupported
+Mon Nov 13 07:26:03.601 2023 : VdDataMfi::getPrl targetId=0, PRL=0
+Mon Nov 13 07:26:03.601 2023 : Entering RmDataMfi::getPdListInLd
+Mon Nov 13 07:26:03.601 2023 : Entering AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.601 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.601 2023 : Exiting  AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.601 2023 : Entering MfiData::getMrCfgData
+Mon Nov 13 07:26:03.601 2023 : Entering AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.601 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.601 2023 : Exiting  AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.601 2023 : Exiting RmDataMfi::getPdListInLd
+Mon Nov 13 07:26:03.601 2023 : Drive deviceID=10 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.601 2023 : Drive deviceID=11 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.601 2023 : Drive deviceID=18 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.601 2023 : Drive deviceID=16 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.601 2023 : Drive deviceID=20 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.601 2023 : Drive deviceID=21 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.601 2023 : Drive deviceID=21 (PdDataMfi::getPdConfigInfo) DG=0 span=0 arm=5
+Mon Nov 13 07:26:03.601 2023 : Drive deviceID=21 (PdDataMfi::getSATAPDRevision) 
+Mon Nov 13 07:26:03.601 2023 : Drive deviceID=21 (PdDataMfi::getSATAIdentifyData) 
+Mon Nov 13 07:26:03.602 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.602 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.602 2023 : Drive deviceID=21 (PdDataMfi::getProgress) 
+Mon Nov 13 07:26:03.602 2023 : LinuxMfiDataProvider::fireIoctl DCMD=2060000 mbox.w[0]=15 mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.602 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.602 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.602 2023 : Drive deviceID=21 (PdDataMfi::doesPdContainFrnCfg) = 0
+Mon Nov 13 07:26:03.602 2023 : Drive deviceID=19 (PdDataMfi::isPdMissing) value=0
+Mon Nov 13 07:26:03.602 2023 : Drive deviceID=19 (PdDataMfi::PdInfo) retCode=0 
+Mon Nov 13 07:26:03.602 2023 : Drive deviceID=19 (PdDataMfi::isDedicatedHSP) value=0 
+Mon Nov 13 07:26:03.602 2023 : Entering AdapterDataMfi::isEnhancedRaid1Esupported
+Mon Nov 13 07:26:03.602 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.602 2023 : Exiting AdapterDataMfi::isEnhancedRaid1Esupported
+Mon Nov 13 07:26:03.602 2023 : VdDataMfi::getPrl targetId=0, PRL=0
+Mon Nov 13 07:26:03.602 2023 : Entering RmDataMfi::getPdListInLd
+Mon Nov 13 07:26:03.602 2023 : Entering AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.602 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.602 2023 : Exiting  AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.602 2023 : Entering MfiData::getMrCfgData
+Mon Nov 13 07:26:03.602 2023 : Entering AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.602 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.602 2023 : Exiting  AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.602 2023 : Exiting RmDataMfi::getPdListInLd
+Mon Nov 13 07:26:03.602 2023 : Drive deviceID=10 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.602 2023 : Drive deviceID=11 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.602 2023 : Drive deviceID=18 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.602 2023 : Drive deviceID=16 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.602 2023 : Drive deviceID=20 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.602 2023 : Drive deviceID=21 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.602 2023 : Drive deviceID=19 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.602 2023 : Drive deviceID=19 (PdDataMfi::getPdConfigInfo) DG=0 span=0 arm=6
+Mon Nov 13 07:26:03.602 2023 : Drive deviceID=19 (PdDataMfi::getSATAPDRevision) 
+Mon Nov 13 07:26:03.602 2023 : Drive deviceID=19 (PdDataMfi::getSATAIdentifyData) 
+Mon Nov 13 07:26:03.603 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.603 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.603 2023 : Drive deviceID=19 (PdDataMfi::getProgress) 
+Mon Nov 13 07:26:03.603 2023 : LinuxMfiDataProvider::fireIoctl DCMD=2060000 mbox.w[0]=13 mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.603 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.603 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.603 2023 : Drive deviceID=19 (PdDataMfi::doesPdContainFrnCfg) = 0
+Mon Nov 13 07:26:03.603 2023 : Drive deviceID=17 (PdDataMfi::isPdMissing) value=0
+Mon Nov 13 07:26:03.603 2023 : Drive deviceID=17 (PdDataMfi::PdInfo) retCode=0 
+Mon Nov 13 07:26:03.603 2023 : Drive deviceID=17 (PdDataMfi::isDedicatedHSP) value=0 
+Mon Nov 13 07:26:03.603 2023 : Entering AdapterDataMfi::isEnhancedRaid1Esupported
+Mon Nov 13 07:26:03.603 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.603 2023 : Exiting AdapterDataMfi::isEnhancedRaid1Esupported
+Mon Nov 13 07:26:03.603 2023 : VdDataMfi::getPrl targetId=0, PRL=0
+Mon Nov 13 07:26:03.603 2023 : Entering RmDataMfi::getPdListInLd
+Mon Nov 13 07:26:03.603 2023 : Entering AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.603 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.603 2023 : Exiting  AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.603 2023 : Entering MfiData::getMrCfgData
+Mon Nov 13 07:26:03.603 2023 : Entering AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.603 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.603 2023 : Exiting  AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.603 2023 : Exiting RmDataMfi::getPdListInLd
+Mon Nov 13 07:26:03.603 2023 : Drive deviceID=10 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.603 2023 : Drive deviceID=11 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.603 2023 : Drive deviceID=18 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.603 2023 : Drive deviceID=16 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.603 2023 : Drive deviceID=20 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.603 2023 : Drive deviceID=21 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.603 2023 : Drive deviceID=19 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.603 2023 : Drive deviceID=17 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.603 2023 : Drive deviceID=17 (PdDataMfi::getPdConfigInfo) DG=0 span=0 arm=7
+Mon Nov 13 07:26:03.603 2023 : Drive deviceID=17 (PdDataMfi::getSATAPDRevision) 
+Mon Nov 13 07:26:03.603 2023 : Drive deviceID=17 (PdDataMfi::getSATAIdentifyData) 
+Mon Nov 13 07:26:03.604 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.604 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.604 2023 : Drive deviceID=17 (PdDataMfi::getProgress) 
+Mon Nov 13 07:26:03.604 2023 : LinuxMfiDataProvider::fireIoctl DCMD=2060000 mbox.w[0]=11 mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.604 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.604 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.604 2023 : Drive deviceID=17 (PdDataMfi::doesPdContainFrnCfg) = 0
+Mon Nov 13 07:26:03.604 2023 : VdDataMfi::isVolumeEPD ID=0 epd=0
+Mon Nov 13 07:26:03.604 2023 : Entering SwCtPrCp::getMissingDrvTable
+Mon Nov 13 07:26:03.604 2023 : Entering MfiData::getMrCfgData
+Mon Nov 13 07:26:03.604 2023 : Entering AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.604 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.604 2023 : Exiting  AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.604 2023 : Entering AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.604 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.604 2023 : Exiting  AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.604 2023 : SwCtPrCp::getMissingDrvTable total missing PDs=0
+Mon Nov 13 07:26:03.604 2023 : Entering SwCtPrCp::getVDInfoTable
+Mon Nov 13 07:26:03.604 2023 : Entering AdapterDataMfi::getOem
+Mon Nov 13 07:26:03.604 2023 : LinuxMfiDataProvider::fireIoctl DCMD=10e8481 mbox.w[0]=0 mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.604 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.604 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.604 2023 : Exiting AdapterDataMfi::getOem
+Mon Nov 13 07:26:03.604 2023 : VdDataMfi::isVolumeEPD ID=0 epd=0
+Mon Nov 13 07:26:03.604 2023 : Entering AdapterDataMfi::getOem
+Mon Nov 13 07:26:03.604 2023 : LinuxMfiDataProvider::fireIoctl DCMD=10e8481 mbox.w[0]=0 mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.604 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.604 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.604 2023 : Exiting AdapterDataMfi::getOem
+Mon Nov 13 07:26:03.604 2023 : VdDataMfi::isVolumeEPD ID=0 epd=0
+Mon Nov 13 07:26:03.604 2023 : VdDataMfi::getDgIndex targetId=0, dgNum =-289984241
+Mon Nov 13 07:26:03.604 2023 : VdDataMfi::getVdInfo displaying VD ID=0/0 
+Mon Nov 13 07:26:03.604 2023 : VdDataMfi::getPrl targetId=0, PRL=0
+Mon Nov 13 07:26:03.604 2023 : VdDataMfi::getSpanDepth targetId=0, spanDepth=1
+Mon Nov 13 07:26:03.604 2023 : VdDataMfi::getRAIDLvl ID=0 prl=0, spanDepth=1
+Mon Nov 13 07:26:03.604 2023 : Entering AdapterDataMfi::isTreatR1EAsR10
+Mon Nov 13 07:26:03.604 2023 : Entering AdapterDataMfi::getMFCdata
+Mon Nov 13 07:26:03.604 2023 : Exiting AdapterDataMfi::isTreatR1EAsR10
+Mon Nov 13 07:26:03.604 2023 : VdDataMfi::getSSCDType ID=0 nSSCDType=0 
+Mon Nov 13 07:26:03.604 2023 : VdDataMfi::isVdSSCD ID=0 isSSCD=0
+Mon Nov 13 07:26:03.604 2023 : VdDataMfi::getState targetId=0, state=3
+Mon Nov 13 07:26:03.604 2023 : VdDataMfi::getConsistentState targetId=0, state=1
+Mon Nov 13 07:26:03.604 2023 : VdDataMfi::getDefaultCachePolicy targetId=0, currentCachePolicy=4
+Mon Nov 13 07:26:03.604 2023 : VdDataMfi::getMrLdInfo targetId=0
+Mon Nov 13 07:26:03.604 2023 : LinuxMfiDataProvider::fireIoctl DCMD=3020000 mbox.w[0]=0 mbox.w[1]=0 mbox.w[2]=0
+
+Mon Nov 13 07:26:03.605 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.605 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.605 2023 : VdDataMfi::getMrLdProperties targetId=0
+Mon Nov 13 07:26:03.605 2023 : VdDataMfi::getMrLdInfo targetId=0
+Mon Nov 13 07:26:03.605 2023 : LinuxMfiDataProvider::fireIoctl DCMD=3020000 mbox.w[0]=0 mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.605 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.605 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.605 2023 : VdDataMfi::getMrLdProperties targetId=0
+Mon Nov 13 07:26:03.605 2023 : Entering AdapterDataMfi::isSSCSupported
+Mon Nov 13 07:26:03.605 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.605 2023 : Exiting AdapterDataMfi::isSSCSupported
+Mon Nov 13 07:26:03.605 2023 : Entering AdapterDataMfi::getCcSchedMode
+Mon Nov 13 07:26:03.605 2023 : Entering AdapterDataMfi::getCcScProperties
+Mon Nov 13 07:26:03.605 2023 : LinuxMfiDataProvider::fireIoctl DCMD=1140200 mbox.w[0]=1 mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.605 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.605 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.605 2023 : Exiting AdapterDataMfi::getCcSchedMode
+Mon Nov 13 07:26:03.605 2023 : Entering AdapterDataMfi::isCtrlNytroMegaRaid
+Mon Nov 13 07:26:03.605 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.605 2023 : ExitingAdapterDataMfi::isCtrlNytroMegaRaid
+Mon Nov 13 07:26:03.605 2023 : VdDataMfi::getNumDrivesPerSpan targetId=0, numdrvsPerspan=8
+Mon Nov 13 07:26:03.605 2023 : VdDataMfi::getSpanDepth targetId=0, spanDepth=1
+Mon Nov 13 07:26:03.605 2023 : VdDataMfi::getPrl targetId=0, PRL=0
+Mon Nov 13 07:26:03.605 2023 : Entering RmDataMfi::getPdListInLd
+Mon Nov 13 07:26:03.605 2023 : Entering AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.605 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.605 2023 : Exiting  AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.605 2023 : Entering MfiData::getMrCfgData
+Mon Nov 13 07:26:03.605 2023 : Entering AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.605 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.605 2023 : Exiting  AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.605 2023 : Exiting RmDataMfi::getPdListInLd
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=10 (PdDataMfi::isPdMissing) value=0
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=10 (PdDataMfi::getBlockSize) value=512
+Mon Nov 13 07:26:03.605 2023 : VdDataMfi::getBlockSizeOfVd ID=0 blocksizeOfVd=512 
+Mon Nov 13 07:26:03.605 2023 : VdDataMfi::getName targetId=0, name =md0
+Mon Nov 13 07:26:03.605 2023 : SwCtPrCp::getVDInfoTable processed total VDs=1
+Mon Nov 13 07:26:03.605 2023 : Entering SwCtPrCp::getEPDInfoTable 
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=10 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=11 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=10 (PdDataMfi::getSlotNumber) value=0
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=11 (PdDataMfi::getSlotNumber) value=1
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=18 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=16 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=18 (PdDataMfi::getSlotNumber) value=2
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=16 (PdDataMfi::getSlotNumber) value=3
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=10 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=18 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=10 (PdDataMfi::getSlotNumber) value=0
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=18 (PdDataMfi::getSlotNumber) value=2
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=11 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=18 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=11 (PdDataMfi::getSlotNumber) value=1
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=18 (PdDataMfi::getSlotNumber) value=2
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=20 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=21 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=20 (PdDataMfi::getSlotNumber) value=4
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=21 (PdDataMfi::getSlotNumber) value=5
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=19 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=17 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=19 (PdDataMfi::getSlotNumber) value=6
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=17 (PdDataMfi::getSlotNumber) value=7
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=20 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=19 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=20 (PdDataMfi::getSlotNumber) value=4
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=19 (PdDataMfi::getSlotNumber) value=6
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=21 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=19 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=21 (PdDataMfi::getSlotNumber) value=5
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=19 (PdDataMfi::getSlotNumber) value=6
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=10 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=20 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=10 (PdDataMfi::getSlotNumber) value=0
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=20 (PdDataMfi::getSlotNumber) value=4
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=11 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=20 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=11 (PdDataMfi::getSlotNumber) value=1
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=20 (PdDataMfi::getSlotNumber) value=4
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=18 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=20 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=18 (PdDataMfi::getSlotNumber) value=2
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=20 (PdDataMfi::getSlotNumber) value=4
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=16 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=20 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=16 (PdDataMfi::getSlotNumber) value=3
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=20 (PdDataMfi::getSlotNumber) value=4
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=10 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=11 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=18 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=16 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=20 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=21 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=19 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=17 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.605 2023 : SwCtPrCp::getEPDInfoTable processed total EPDs=0
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=10 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=11 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=10 (PdDataMfi::getSlotNumber) value=0
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=11 (PdDataMfi::getSlotNumber) value=1
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=18 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=16 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=18 (PdDataMfi::getSlotNumber) value=2
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=16 (PdDataMfi::getSlotNumber) value=3
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=10 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=18 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=10 (PdDataMfi::getSlotNumber) value=0
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=18 (PdDataMfi::getSlotNumber) value=2
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=11 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=18 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=11 (PdDataMfi::getSlotNumber) value=1
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=18 (PdDataMfi::getSlotNumber) value=2
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=20 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=21 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=20 (PdDataMfi::getSlotNumber) value=4
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=21 (PdDataMfi::getSlotNumber) value=5
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=19 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=17 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=19 (PdDataMfi::getSlotNumber) value=6
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=17 (PdDataMfi::getSlotNumber) value=7
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=20 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=19 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=20 (PdDataMfi::getSlotNumber) value=4
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=19 (PdDataMfi::getSlotNumber) value=6
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=21 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=19 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=21 (PdDataMfi::getSlotNumber) value=5
+Mon Nov 13 07:26:03.605 2023 : Drive deviceID=19 (PdDataMfi::getSlotNumber) value=6
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=10 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=20 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=10 (PdDataMfi::getSlotNumber) value=0
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=20 (PdDataMfi::getSlotNumber) value=4
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=11 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=20 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=11 (PdDataMfi::getSlotNumber) value=1
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=20 (PdDataMfi::getSlotNumber) value=4
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=18 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=20 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=18 (PdDataMfi::getSlotNumber) value=2
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=20 (PdDataMfi::getSlotNumber) value=4
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=16 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=20 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=16 (PdDataMfi::getSlotNumber) value=3
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=20 (PdDataMfi::getSlotNumber) value=4
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=10 (PdDataMfi::getFwState) value=24
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=11 (PdDataMfi::getFwState) value=24
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=18 (PdDataMfi::getFwState) value=24
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=16 (PdDataMfi::getFwState) value=24
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=20 (PdDataMfi::getFwState) value=24
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=21 (PdDataMfi::getFwState) value=24
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=19 (PdDataMfi::getFwState) value=24
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=17 (PdDataMfi::getFwState) value=24
+Mon Nov 13 07:26:03.606 2023 : Entering SwCtPrCp::getPDInfoTable
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=10 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=11 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=10 (PdDataMfi::getSlotNumber) value=0
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=11 (PdDataMfi::getSlotNumber) value=1
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=18 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=16 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=18 (PdDataMfi::getSlotNumber) value=2
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=16 (PdDataMfi::getSlotNumber) value=3
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=10 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=18 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=10 (PdDataMfi::getSlotNumber) value=0
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=18 (PdDataMfi::getSlotNumber) value=2
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=11 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=18 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=11 (PdDataMfi::getSlotNumber) value=1
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=18 (PdDataMfi::getSlotNumber) value=2
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=20 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=21 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=20 (PdDataMfi::getSlotNumber) value=4
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=21 (PdDataMfi::getSlotNumber) value=5
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=19 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=17 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=19 (PdDataMfi::getSlotNumber) value=6
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=17 (PdDataMfi::getSlotNumber) value=7
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=20 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=19 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=20 (PdDataMfi::getSlotNumber) value=4
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=19 (PdDataMfi::getSlotNumber) value=6
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=21 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=19 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=21 (PdDataMfi::getSlotNumber) value=5
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=19 (PdDataMfi::getSlotNumber) value=6
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=10 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=20 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=10 (PdDataMfi::getSlotNumber) value=0
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=20 (PdDataMfi::getSlotNumber) value=4
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=11 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=20 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=11 (PdDataMfi::getSlotNumber) value=1
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=20 (PdDataMfi::getSlotNumber) value=4
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=18 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=20 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=18 (PdDataMfi::getSlotNumber) value=2
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=20 (PdDataMfi::getSlotNumber) value=4
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=16 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=20 (PdDataMfi::getEnclDeviceId) value=252
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=16 (PdDataMfi::getSlotNumber) value=3
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=20 (PdDataMfi::getSlotNumber) value=4
+Mon Nov 13 07:26:03.606 2023 : SwCtPrCp::getPDInfoTable procesing total PDs=8
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=10 (PdDataMfi::PdInfo) retCode=0 
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=10 (PdDataMfi::isDedicatedHSP) value=0 
+Mon Nov 13 07:26:03.606 2023 : Entering AdapterDataMfi::isEnhancedRaid1Esupported
+Mon Nov 13 07:26:03.606 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.606 2023 : Exiting AdapterDataMfi::isEnhancedRaid1Esupported
+Mon Nov 13 07:26:03.606 2023 : VdDataMfi::getPrl targetId=0, PRL=0
+Mon Nov 13 07:26:03.606 2023 : Entering RmDataMfi::getPdListInLd
+Mon Nov 13 07:26:03.606 2023 : Entering AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.606 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.606 2023 : Exiting  AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.606 2023 : Entering MfiData::getMrCfgData
+Mon Nov 13 07:26:03.606 2023 : Entering AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.606 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.606 2023 : Exiting  AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.606 2023 : Exiting RmDataMfi::getPdListInLd
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=10 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=10 (PdDataMfi::getPdConfigInfo) DG=0 span=0 arm=0
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=10 (PdDataMfi::getSATAPDRevision) 
+Mon Nov 13 07:26:03.606 2023 : Drive deviceID=10 (PdDataMfi::getSATAIdentifyData) 
+Mon Nov 13 07:26:03.607 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.607 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.607 2023 : Drive deviceID=11 (PdDataMfi::PdInfo) retCode=0 
+Mon Nov 13 07:26:03.607 2023 : Drive deviceID=11 (PdDataMfi::isDedicatedHSP) value=0 
+Mon Nov 13 07:26:03.607 2023 : Entering AdapterDataMfi::isEnhancedRaid1Esupported
+Mon Nov 13 07:26:03.607 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.607 2023 : Exiting AdapterDataMfi::isEnhancedRaid1Esupported
+Mon Nov 13 07:26:03.607 2023 : VdDataMfi::getPrl targetId=0, PRL=0
+Mon Nov 13 07:26:03.607 2023 : Entering RmDataMfi::getPdListInLd
+Mon Nov 13 07:26:03.607 2023 : Entering AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.607 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.607 2023 : Exiting  AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.607 2023 : Entering MfiData::getMrCfgData
+Mon Nov 13 07:26:03.607 2023 : Entering AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.607 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.607 2023 : Exiting  AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.607 2023 : Exiting RmDataMfi::getPdListInLd
+Mon Nov 13 07:26:03.607 2023 : Drive deviceID=10 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.607 2023 : Drive deviceID=11 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.607 2023 : Drive deviceID=11 (PdDataMfi::getPdConfigInfo) DG=0 span=0 arm=1
+Mon Nov 13 07:26:03.607 2023 : Drive deviceID=11 (PdDataMfi::getSATAPDRevision) 
+Mon Nov 13 07:26:03.607 2023 : Drive deviceID=11 (PdDataMfi::getSATAIdentifyData) 
+Mon Nov 13 07:26:03.608 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.608 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.608 2023 : Drive deviceID=18 (PdDataMfi::PdInfo) retCode=0 
+Mon Nov 13 07:26:03.608 2023 : Drive deviceID=18 (PdDataMfi::isDedicatedHSP) value=0 
+Mon Nov 13 07:26:03.608 2023 : Entering AdapterDataMfi::isEnhancedRaid1Esupported
+Mon Nov 13 07:26:03.608 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.608 2023 : Exiting AdapterDataMfi::isEnhancedRaid1Esupported
+Mon Nov 13 07:26:03.608 2023 : VdDataMfi::getPrl targetId=0, PRL=0
+Mon Nov 13 07:26:03.608 2023 : Entering RmDataMfi::getPdListInLd
+Mon Nov 13 07:26:03.608 2023 : Entering AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.608 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.608 2023 : Exiting  AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.608 2023 : Entering MfiData::getMrCfgData
+Mon Nov 13 07:26:03.608 2023 : Entering AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.608 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.608 2023 : Exiting  AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.608 2023 : Exiting RmDataMfi::getPdListInLd
+Mon Nov 13 07:26:03.608 2023 : Drive deviceID=10 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.608 2023 : Drive deviceID=11 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.608 2023 : Drive deviceID=18 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.608 2023 : Drive deviceID=18 (PdDataMfi::getPdConfigInfo) DG=0 span=0 arm=2
+Mon Nov 13 07:26:03.608 2023 : Drive deviceID=18 (PdDataMfi::getSATAPDRevision) 
+Mon Nov 13 07:26:03.608 2023 : Drive deviceID=18 (PdDataMfi::getSATAIdentifyData) 
+Mon Nov 13 07:26:03.608 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.608 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.608 2023 : Drive deviceID=16 (PdDataMfi::PdInfo) retCode=0 
+Mon Nov 13 07:26:03.608 2023 : Drive deviceID=16 (PdDataMfi::isDedicatedHSP) value=0 
+Mon Nov 13 07:26:03.608 2023 : Entering AdapterDataMfi::isEnhancedRaid1Esupported
+Mon Nov 13 07:26:03.608 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.608 2023 : Exiting AdapterDataMfi::isEnhancedRaid1Esupported
+Mon Nov 13 07:26:03.608 2023 : VdDataMfi::getPrl targetId=0, PRL=0
+Mon Nov 13 07:26:03.608 2023 : Entering RmDataMfi::getPdListInLd
+Mon Nov 13 07:26:03.608 2023 : Entering AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.608 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.608 2023 : Exiting  AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.608 2023 : Entering MfiData::getMrCfgData
+Mon Nov 13 07:26:03.608 2023 : Entering AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.608 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.608 2023 : Exiting  AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.608 2023 : Exiting RmDataMfi::getPdListInLd
+Mon Nov 13 07:26:03.608 2023 : Drive deviceID=10 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.608 2023 : Drive deviceID=11 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.608 2023 : Drive deviceID=18 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.609 2023 : Drive deviceID=16 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.609 2023 : Drive deviceID=16 (PdDataMfi::getPdConfigInfo) DG=0 span=0 arm=3
+Mon Nov 13 07:26:03.609 2023 : Drive deviceID=16 (PdDataMfi::getSATAPDRevision) 
+Mon Nov 13 07:26:03.609 2023 : Drive deviceID=16 (PdDataMfi::getSATAIdentifyData) 
+Mon Nov 13 07:26:03.609 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.609 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.609 2023 : Drive deviceID=20 (PdDataMfi::PdInfo) retCode=0 
+Mon Nov 13 07:26:03.609 2023 : Drive deviceID=20 (PdDataMfi::isDedicatedHSP) value=0 
+Mon Nov 13 07:26:03.609 2023 : Entering AdapterDataMfi::isEnhancedRaid1Esupported
+Mon Nov 13 07:26:03.609 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.609 2023 : Exiting AdapterDataMfi::isEnhancedRaid1Esupported
+Mon Nov 13 07:26:03.609 2023 : VdDataMfi::getPrl targetId=0, PRL=0
+Mon Nov 13 07:26:03.609 2023 : Entering RmDataMfi::getPdListInLd
+Mon Nov 13 07:26:03.609 2023 : Entering AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.609 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.609 2023 : Exiting  AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.609 2023 : Entering MfiData::getMrCfgData
+Mon Nov 13 07:26:03.609 2023 : Entering AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.609 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.609 2023 : Exiting  AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.609 2023 : Exiting RmDataMfi::getPdListInLd
+Mon Nov 13 07:26:03.609 2023 : Drive deviceID=10 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.609 2023 : Drive deviceID=11 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.609 2023 : Drive deviceID=18 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.609 2023 : Drive deviceID=16 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.609 2023 : Drive deviceID=20 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.609 2023 : Drive deviceID=20 (PdDataMfi::getPdConfigInfo) DG=0 span=0 arm=4
+Mon Nov 13 07:26:03.609 2023 : Drive deviceID=20 (PdDataMfi::getSATAPDRevision) 
+Mon Nov 13 07:26:03.609 2023 : Drive deviceID=20 (PdDataMfi::getSATAIdentifyData) 
+Mon Nov 13 07:26:03.610 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.610 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.610 2023 : Drive deviceID=21 (PdDataMfi::PdInfo) retCode=0 
+Mon Nov 13 07:26:03.610 2023 : Drive deviceID=21 (PdDataMfi::isDedicatedHSP) value=0 
+Mon Nov 13 07:26:03.610 2023 : Entering AdapterDataMfi::isEnhancedRaid1Esupported
+Mon Nov 13 07:26:03.610 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.610 2023 : Exiting AdapterDataMfi::isEnhancedRaid1Esupported
+Mon Nov 13 07:26:03.610 2023 : VdDataMfi::getPrl targetId=0, PRL=0
+Mon Nov 13 07:26:03.610 2023 : Entering RmDataMfi::getPdListInLd
+Mon Nov 13 07:26:03.610 2023 : Entering AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.610 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.610 2023 : Exiting  AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.610 2023 : Entering MfiData::getMrCfgData
+Mon Nov 13 07:26:03.610 2023 : Entering AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.610 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.610 2023 : Exiting  AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.610 2023 : Exiting RmDataMfi::getPdListInLd
+Mon Nov 13 07:26:03.610 2023 : Drive deviceID=10 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.610 2023 : Drive deviceID=11 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.610 2023 : Drive deviceID=18 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.610 2023 : Drive deviceID=16 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.610 2023 : Drive deviceID=20 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.610 2023 : Drive deviceID=21 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.610 2023 : Drive deviceID=21 (PdDataMfi::getPdConfigInfo) DG=0 span=0 arm=5
+Mon Nov 13 07:26:03.610 2023 : Drive deviceID=21 (PdDataMfi::getSATAPDRevision) 
+Mon Nov 13 07:26:03.610 2023 : Drive deviceID=21 (PdDataMfi::getSATAIdentifyData) 
+Mon Nov 13 07:26:03.611 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.611 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.611 2023 : Drive deviceID=19 (PdDataMfi::PdInfo) retCode=0 
+Mon Nov 13 07:26:03.611 2023 : Drive deviceID=19 (PdDataMfi::isDedicatedHSP) value=0 
+Mon Nov 13 07:26:03.611 2023 : Entering AdapterDataMfi::isEnhancedRaid1Esupported
+Mon Nov 13 07:26:03.611 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.611 2023 : Exiting AdapterDataMfi::isEnhancedRaid1Esupported
+Mon Nov 13 07:26:03.611 2023 : VdDataMfi::getPrl targetId=0, PRL=0
+Mon Nov 13 07:26:03.611 2023 : Entering RmDataMfi::getPdListInLd
+Mon Nov 13 07:26:03.611 2023 : Entering AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.611 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.611 2023 : Exiting  AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.611 2023 : Entering MfiData::getMrCfgData
+Mon Nov 13 07:26:03.611 2023 : Entering AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.611 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.611 2023 : Exiting  AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.611 2023 : Exiting RmDataMfi::getPdListInLd
+Mon Nov 13 07:26:03.611 2023 : Drive deviceID=10 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.611 2023 : Drive deviceID=11 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.611 2023 : Drive deviceID=18 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.611 2023 : Drive deviceID=16 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.611 2023 : Drive deviceID=20 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.611 2023 : Drive deviceID=21 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.611 2023 : Drive deviceID=19 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.611 2023 : Drive deviceID=19 (PdDataMfi::getPdConfigInfo) DG=0 span=0 arm=6
+Mon Nov 13 07:26:03.611 2023 : Drive deviceID=19 (PdDataMfi::getSATAPDRevision) 
+Mon Nov 13 07:26:03.611 2023 : Drive deviceID=19 (PdDataMfi::getSATAIdentifyData) 
+Mon Nov 13 07:26:03.612 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.612 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.612 2023 : Drive deviceID=17 (PdDataMfi::PdInfo) retCode=0 
+Mon Nov 13 07:26:03.612 2023 : Drive deviceID=17 (PdDataMfi::isDedicatedHSP) value=0 
+Mon Nov 13 07:26:03.612 2023 : Entering AdapterDataMfi::isEnhancedRaid1Esupported
+Mon Nov 13 07:26:03.612 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.612 2023 : Exiting AdapterDataMfi::isEnhancedRaid1Esupported
+Mon Nov 13 07:26:03.612 2023 : VdDataMfi::getPrl targetId=0, PRL=0
+Mon Nov 13 07:26:03.612 2023 : Entering RmDataMfi::getPdListInLd
+Mon Nov 13 07:26:03.612 2023 : Entering AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.612 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.612 2023 : Exiting  AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.612 2023 : Entering MfiData::getMrCfgData
+Mon Nov 13 07:26:03.612 2023 : Entering AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.612 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.612 2023 : Exiting  AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.612 2023 : Exiting RmDataMfi::getPdListInLd
+Mon Nov 13 07:26:03.612 2023 : Drive deviceID=10 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.612 2023 : Drive deviceID=11 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.612 2023 : Drive deviceID=18 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.612 2023 : Drive deviceID=16 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.612 2023 : Drive deviceID=20 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.612 2023 : Drive deviceID=21 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.612 2023 : Drive deviceID=19 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.612 2023 : Drive deviceID=17 (PdDataMfi::isPdEpd)  value=0 
+Mon Nov 13 07:26:03.612 2023 : Drive deviceID=17 (PdDataMfi::getPdConfigInfo) DG=0 span=0 arm=7
+Mon Nov 13 07:26:03.612 2023 : Drive deviceID=17 (PdDataMfi::getSATAPDRevision) 
+Mon Nov 13 07:26:03.612 2023 : Drive deviceID=17 (PdDataMfi::getSATAIdentifyData) 
+Mon Nov 13 07:26:03.613 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.613 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.613 2023 : Entering RmDataMfi::getPdCount
+Mon Nov 13 07:26:03.613 2023 : Entering MfiData::getMrPdList
+Mon Nov 13 07:26:03.613 2023 : Exiting RmDataMfi::getPdCount
+Mon Nov 13 07:26:03.613 2023 : Entering SwCtPrCp::getEncInfoTable
+Mon Nov 13 07:26:03.613 2023 : Entering ExtEnclList::extractEnclosureList
+Mon Nov 13 07:26:03.613 2023 : Entering AdapterDataMfi::isEnclPartnerDevIdSupported
+Mon Nov 13 07:26:03.613 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.613 2023 : Exiting AdapterDataMfi::isEnclPartnerDevIdSupported
+Mon Nov 13 07:26:03.613 2023 : Entering AdapterDataMfi::isSupportEnclExt
+
+Mon Nov 13 07:26:03.613 2023 : Entering ExtEnclList::extractExtEnclosureList
+Mon Nov 13 07:26:03.613 2023 : Entering AdapterDataMfi::isEnclPartnerDevIdSupported
+Mon Nov 13 07:26:03.613 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.613 2023 : Exiting AdapterDataMfi::isEnclPartnerDevIdSupported
+Mon Nov 13 07:26:03.613 2023 : Entering RmDataMfi::getMrExtEnclList
+Mon Nov 13 07:26:03.613 2023 : LinuxMfiDataProvider::fireIoctl DCMD=9010000 mbox.w[0]=1 mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.613 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.613 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.613 2023 : LinuxMfiDataProvider::fireIoctl DCMD=9010000 mbox.w[0]=1 mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.613 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.613 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.613 2023 : Exiting RmDataMfi::getMrExtEnclList retCode = 0
+Mon Nov 13 07:26:03.613 2023 : extractExtEnclosureList processing eDevID=252 connIdx=255 pos=1
+Mon Nov 13 07:26:03.613 2023 : Entering RmDataMfi::getEnclPDInfo
+Mon Nov 13 07:26:03.613 2023 : LinuxMfiDataProvider::fireIoctl DCMD=2020000 mbox.w[0]=fc mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.613 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.613 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.613 2023 : Exiting RmDataMfi::getEnclPDInfo
+Mon Nov 13 07:26:03.613 2023 : Exiting ExtEnclList::extractEnclosureList as extractExtEnclosureList is not successful
+Mon Nov 13 07:26:03.613 2023 : Entering ShowEncInfoCp::getListOfEncls
+Mon Nov 13 07:26:03.613 2023 : Entering ShowEncInfoCp::getEnclArrData
+Mon Nov 13 07:26:03.613 2023 : Entering RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.613 2023 : Entering RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.613 2023 : Exiting RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.613 2023 : Exiting RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.613 2023 : Entering AdapterDataMfi::isEnclPartnerDevIdSupported
+Mon Nov 13 07:26:03.613 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.613 2023 : Exiting AdapterDataMfi::isEnclPartnerDevIdSupported
+Mon Nov 13 07:26:03.613 2023 : Drive deviceID=252 (PdDataMfi::getEnclPartnerDevId) enclPartnerDevID=65535 PartnerDevIdsupported=1
+Mon Nov 13 07:26:03.613 2023 : Entering AdapterDataMfi::isEnclEnumSupported
+Mon Nov 13 07:26:03.613 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.613 2023 : Exiting AdapterDataMfi::isEnclEnumSupported  retCode = 0
+Mon Nov 13 07:26:03.613 2023 : Entering ShowEncInfoCp::getConnectorname
+Mon Nov 13 07:26:03.613 2023 : Entering RmDataMfi::getEnclPDInfo
+Mon Nov 13 07:26:03.613 2023 : LinuxMfiDataProvider::fireIoctl DCMD=2020000 mbox.w[0]=fc mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.613 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.613 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.613 2023 : Exiting RmDataMfi::getEnclPDInfo
+Mon Nov 13 07:26:03.613 2023 : Entering AdapterDataMfi::moreThan8Phys
+Mon Nov 13 07:26:03.613 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.613 2023 : Exiting AdapterDataMfi::moreThan8Phys
+Mon Nov 13 07:26:03.613 2023 : Entering AdapterDataMfi::moreThan16Phys
+Mon Nov 13 07:26:03.613 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.613 2023 : Exiting AdapterDataMfi::moreThan16Phys
+Mon Nov 13 07:26:03.613 2023 : ShowEncInfoCp::getConnectorname  
+Mon Nov 13 07:26:03.613 2023 : Entering ShowEncInfoCp::getConnectorname
+Mon Nov 13 07:26:03.613 2023 : Entering RmDataMfi::getEnclPDInfo
+Mon Nov 13 07:26:03.613 2023 : LinuxMfiDataProvider::fireIoctl DCMD=2020000 mbox.w[0]=ffff mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.613 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=12
+Mon Nov 13 07:26:03.613 2023 : LinuxMfiDataProvider::fireIoctl returning with =12 errno=19
+Mon Nov 13 07:26:03.613 2023 : Exiting RmDataMfi::getEnclPDInfo
+Mon Nov 13 07:26:03.613 2023 : Entering ShowEncInfoCp::isEnclDeviceInMultiPath
+Mon Nov 13 07:26:03.613 2023 : Entering AdapterDataMfi::isEnclEnumSupported
+Mon Nov 13 07:26:03.613 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.613 2023 : Exiting AdapterDataMfi::isEnclEnumSupported  retCode = 0
+Mon Nov 13 07:26:03.613 2023 : Entering AdapterDataMfi::isEnclPartnerDevIdSupported
+Mon Nov 13 07:26:03.613 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.613 2023 : Exiting AdapterDataMfi::isEnclPartnerDevIdSupported
+Mon Nov 13 07:26:03.613 2023 : Entering RmDataMfi::getEnclPDInfo
+Mon Nov 13 07:26:03.613 2023 : LinuxMfiDataProvider::fireIoctl DCMD=2020000 mbox.w[0]=fc mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.613 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.613 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.613 2023 : Exiting RmDataMfi::getEnclPDInfo
+Mon Nov 13 07:26:03.613 2023 : ShowEncInfoCp::isEnclDeviceInMultiPath partner=65535 idx0=255 idx1=255
+Mon Nov 13 07:26:03.613 2023 : Exiting ShowEncInfoCp::isEnclDeviceInMultiPath with false
+Mon Nov 13 07:26:03.613 2023 : Entering ShowEncInfoCp::isEnclDeviceInMultiPath
+Mon Nov 13 07:26:03.613 2023 : Entering AdapterDataMfi::isEnclEnumSupported
+Mon Nov 13 07:26:03.613 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.613 2023 : Exiting AdapterDataMfi::isEnclEnumSupported  retCode = 0
+Mon Nov 13 07:26:03.613 2023 : Entering AdapterDataMfi::isEnclPartnerDevIdSupported
+Mon Nov 13 07:26:03.613 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.613 2023 : Exiting AdapterDataMfi::isEnclPartnerDevIdSupported
+Mon Nov 13 07:26:03.613 2023 : Entering RmDataMfi::getEnclPDInfo
+Mon Nov 13 07:26:03.614 2023 : LinuxMfiDataProvider::fireIoctl DCMD=2020000 mbox.w[0]=fc mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.614 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.614 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.614 2023 : Exiting RmDataMfi::getEnclPDInfo
+Mon Nov 13 07:26:03.614 2023 : ShowEncInfoCp::isEnclDeviceInMultiPath partner=65535 idx0=255 idx1=255
+Mon Nov 13 07:26:03.614 2023 : Exiting ShowEncInfoCp::isEnclDeviceInMultiPath with false
+Mon Nov 13 07:26:03.614 2023 : Entering RmDataMfi::getEnclPDInfo
+Mon Nov 13 07:26:03.614 2023 : LinuxMfiDataProvider::fireIoctl DCMD=2020000 mbox.w[0]=fc mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.614 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.614 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.614 2023 : Exiting RmDataMfi::getEnclPDInfo
+Mon Nov 13 07:26:03.614 2023 : Entering ShowEncInfoCp::getInquiryData
+Mon Nov 13 07:26:03.614 2023 : Entering SwCtPrCp::getBBUInfoTable
+Mon Nov 13 07:26:03.614 2023 : Entering SwBbuCp::handleBbuShowInfo
+Mon Nov 13 07:26:03.614 2023 : Entering RmDataMfi::initialize
+Mon Nov 13 07:26:03.614 2023 : Entering RmDataMfi::getPdList
+Mon Nov 13 07:26:03.614 2023 : Entering MfiData::getMrPdList
+Mon Nov 13 07:26:03.614 2023 : LinuxMfiDataProvider::fireIoctl DCMD=2010000 mbox.w[0]=0 mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.614 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.614 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.614 2023 : LinuxMfiDataProvider::fireIoctl DCMD=2010000 mbox.w[0]=0 mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.614 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.614 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.614 2023 : Exiting MfiData::getMrPdList, PD count = 9
+Mon Nov 13 07:26:03.614 2023 : Entering RmDataMfi::createPd
+Mon Nov 13 07:26:03.614 2023 : Exiting RmDataMfi::createPd
+Mon Nov 13 07:26:03.614 2023 : Entering RmDataMfi::createPd
+Mon Nov 13 07:26:03.614 2023 : Exiting RmDataMfi::createPd
+Mon Nov 13 07:26:03.614 2023 : Entering RmDataMfi::createPd
+Mon Nov 13 07:26:03.614 2023 : Exiting RmDataMfi::createPd
+Mon Nov 13 07:26:03.614 2023 : Entering RmDataMfi::createPd
+Mon Nov 13 07:26:03.614 2023 : Exiting RmDataMfi::createPd
+Mon Nov 13 07:26:03.614 2023 : Entering RmDataMfi::createPd
+Mon Nov 13 07:26:03.614 2023 : Exiting RmDataMfi::createPd
+Mon Nov 13 07:26:03.614 2023 : Entering RmDataMfi::createPd
+Mon Nov 13 07:26:03.614 2023 : Exiting RmDataMfi::createPd
+Mon Nov 13 07:26:03.614 2023 : Entering RmDataMfi::createPd
+Mon Nov 13 07:26:03.614 2023 : Exiting RmDataMfi::createPd
+Mon Nov 13 07:26:03.614 2023 : Entering RmDataMfi::createPd
+Mon Nov 13 07:26:03.614 2023 : Exiting RmDataMfi::createPd
+Mon Nov 13 07:26:03.614 2023 : Entering RmDataMfi::createPd
+Mon Nov 13 07:26:03.614 2023 : Exiting RmDataMfi::createPd
+Mon Nov 13 07:26:03.614 2023 : Exiting RmDataMfi::getPdList
+Mon Nov 13 07:26:03.614 2023 : Exiting RmDataMfi::initialize
+Mon Nov 13 07:26:03.614 2023 : Exiting RmDataMfi::initialize
+Mon Nov 13 07:26:03.614 2023 : Entering RmDataMfi::createAdapter
+Mon Nov 13 07:26:03.614 2023 : Exiting RmDataMfi::createAdapter
+Mon Nov 13 07:26:03.614 2023 : Entering RmDataMfi::getUncfgPdList
+Mon Nov 13 07:26:03.614 2023 : Entering MfiData::getMrPdList
+Mon Nov 13 07:26:03.614 2023 : Entering MfiData::getMrCfgData
+Mon Nov 13 07:26:03.614 2023 : Entering AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.614 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.614 2023 : LinuxMfiDataProvider::fireIoctl DCMD=1010000 mbox.w[0]=1 mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.614 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.614 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.614 2023 : Exiting AdapterDataMfi::getCtlrInfo retCode = 0
+Mon Nov 13 07:26:03.614 2023 : Exiting  AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.614 2023 : LinuxMfiDataProvider::fireIoctl DCMD=4010000 mbox.w[0]=1 mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.614 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.614 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.614 2023 : LinuxMfiDataProvider::fireIoctl DCMD=4010000 mbox.w[0]=1 mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.614 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.614 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.614 2023 : Logical drive count = 1, Spare count = 0
+Mon Nov 13 07:26:03.615 2023 : Exiting MfiData::getMrCfgData 
+Mon Nov 13 07:26:03.615 2023 : Entering RmDataMfi::getUncfgPdList- getMrCfgData - retCode:0
+Mon Nov 13 07:26:03.615 2023 : Entering AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.615 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.615 2023 : Exiting  AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.615 2023 : Exiting RmDataMfi::getUncfgPdList
+Mon Nov 13 07:26:03.615 2023 : Entering RmDataMfi::getSystemPdList
+Mon Nov 13 07:26:03.615 2023 : Entering MfiData::getMrSystemPdList
+Mon Nov 13 07:26:03.615 2023 : LinuxMfiDataProvider::fireIoctl DCMD=2010100 mbox.w[0]=0 mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.615 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.615 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.615 2023 : LinuxMfiDataProvider::fireIoctl DCMD=2010100 mbox.w[0]=0 mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.615 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.615 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.615 2023 : Exiting MfiData::getMrSystemPdList PD count = 9,  retCode = 0
+Mon Nov 13 07:26:03.615 2023 : RmDataMfi::getSystemPdList slotNumber= 0, deviceId=10
+Mon Nov 13 07:26:03.615 2023 : Entering RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.615 2023 : Entering RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.615 2023 : LinuxMfiDataProvider::fireIoctl DCMD=2020000 mbox.w[0]=a mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.615 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.615 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.615 2023 : Drive deviceID=10 (PdDataMfi::getMrPdInfo) retCode=0
+Mon Nov 13 07:26:03.615 2023 : Exiting RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.615 2023 : Exiting RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.615 2023 : Drive deviceID=10 (PdDataMfi::getFwState) value=24
+Mon Nov 13 07:26:03.615 2023 : RmDataMfi::getSystemPdList slotNumber= 1, deviceId=11
+Mon Nov 13 07:26:03.615 2023 : Entering RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.615 2023 : Entering RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.615 2023 : LinuxMfiDataProvider::fireIoctl DCMD=2020000 mbox.w[0]=b mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.615 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.615 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.615 2023 : Drive deviceID=11 (PdDataMfi::getMrPdInfo) retCode=0
+Mon Nov 13 07:26:03.615 2023 : Exiting RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.615 2023 : Exiting RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.615 2023 : Drive deviceID=11 (PdDataMfi::getFwState) value=24
+Mon Nov 13 07:26:03.615 2023 : RmDataMfi::getSystemPdList slotNumber= 3, deviceId=16
+Mon Nov 13 07:26:03.615 2023 : Entering RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.615 2023 : Entering RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.615 2023 : LinuxMfiDataProvider::fireIoctl DCMD=2020000 mbox.w[0]=10 mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.615 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.615 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.615 2023 : Drive deviceID=16 (PdDataMfi::getMrPdInfo) retCode=0
+Mon Nov 13 07:26:03.615 2023 : Exiting RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.615 2023 : Exiting RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.615 2023 : Drive deviceID=16 (PdDataMfi::getFwState) value=24
+Mon Nov 13 07:26:03.615 2023 : RmDataMfi::getSystemPdList slotNumber= 7, deviceId=17
+Mon Nov 13 07:26:03.615 2023 : Entering RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.615 2023 : Entering RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.615 2023 : LinuxMfiDataProvider::fireIoctl DCMD=2020000 mbox.w[0]=11 mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.615 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.615 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.615 2023 : Drive deviceID=17 (PdDataMfi::getMrPdInfo) retCode=0
+Mon Nov 13 07:26:03.615 2023 : Exiting RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.615 2023 : Exiting RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.615 2023 : Drive deviceID=17 (PdDataMfi::getFwState) value=24
+Mon Nov 13 07:26:03.615 2023 : RmDataMfi::getSystemPdList slotNumber= 2, deviceId=18
+Mon Nov 13 07:26:03.615 2023 : Entering RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.615 2023 : Entering RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.615 2023 : LinuxMfiDataProvider::fireIoctl DCMD=2020000 mbox.w[0]=12 mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.615 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.615 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.615 2023 : Drive deviceID=18 (PdDataMfi::getMrPdInfo) retCode=0
+Mon Nov 13 07:26:03.615 2023 : Exiting RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.615 2023 : Exiting RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.615 2023 : Drive deviceID=18 (PdDataMfi::getFwState) value=24
+Mon Nov 13 07:26:03.615 2023 : RmDataMfi::getSystemPdList slotNumber= 6, deviceId=19
+Mon Nov 13 07:26:03.615 2023 : Entering RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.615 2023 : Entering RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.615 2023 : LinuxMfiDataProvider::fireIoctl DCMD=2020000 mbox.w[0]=13 mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.615 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.615 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.615 2023 : Drive deviceID=19 (PdDataMfi::getMrPdInfo) retCode=0
+Mon Nov 13 07:26:03.615 2023 : Exiting RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.615 2023 : Exiting RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.615 2023 : Drive deviceID=19 (PdDataMfi::getFwState) value=24
+Mon Nov 13 07:26:03.615 2023 : RmDataMfi::getSystemPdList slotNumber= 4, deviceId=20
+Mon Nov 13 07:26:03.615 2023 : Entering RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.615 2023 : Entering RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.615 2023 : LinuxMfiDataProvider::fireIoctl DCMD=2020000 mbox.w[0]=14 mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.615 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.615 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.615 2023 : Drive deviceID=20 (PdDataMfi::getMrPdInfo) retCode=0
+Mon Nov 13 07:26:03.615 2023 : Exiting RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.615 2023 : Exiting RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.615 2023 : Drive deviceID=20 (PdDataMfi::getFwState) value=24
+Mon Nov 13 07:26:03.615 2023 : RmDataMfi::getSystemPdList slotNumber= 5, deviceId=21
+Mon Nov 13 07:26:03.615 2023 : Entering RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.615 2023 : Entering RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.615 2023 : LinuxMfiDataProvider::fireIoctl DCMD=2020000 mbox.w[0]=15 mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.615 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.615 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.615 2023 : Drive deviceID=21 (PdDataMfi::getMrPdInfo) retCode=0
+Mon Nov 13 07:26:03.615 2023 : Exiting RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.615 2023 : Exiting RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.615 2023 : Drive deviceID=21 (PdDataMfi::getFwState) value=24
+Mon Nov 13 07:26:03.615 2023 : RmDataMfi::getSystemPdList slotNumber= 255, deviceId=252
+Mon Nov 13 07:26:03.615 2023 : Entering RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.615 2023 : Entering RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.615 2023 : LinuxMfiDataProvider::fireIoctl DCMD=2020000 mbox.w[0]=fc mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.615 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.615 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.615 2023 : Drive deviceID=252 (PdDataMfi::getMrPdInfo) retCode=0
+Mon Nov 13 07:26:03.615 2023 : Exiting RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.615 2023 : Exiting RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.615 2023 : Drive deviceID=252 (PdDataMfi::getFwState) value=0
+Mon Nov 13 07:26:03.615 2023 : Exiting RmDataMfi::getSystemPdList
+Mon Nov 13 07:26:03.615 2023 : Entering RmDataMfi::getRmCfg
+Mon Nov 13 07:26:03.615 2023 : Entering MfiData::getMrCfgData
+Mon Nov 13 07:26:03.616 2023 : Entering AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.616 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.616 2023 : Exiting  AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.616 2023 : Exiting RmDataMfi::getRmCfg
+Mon Nov 13 07:26:03.616 2023 : Entering RmDataMfi::createRmCfg
+Mon Nov 13 07:26:03.616 2023 : Entering AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.616 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.616 2023 : Exiting  AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.616 2023 : Entering RmDataMfi::createVd
+Mon Nov 13 07:26:03.616 2023 : Exiting RmDataMfi::createVd
+Mon Nov 13 07:26:03.616 2023 : Entering RmDataMfi::searchArrayList
+Mon Nov 13 07:26:03.616 2023 : Exiting RmDataMfi::searchArrayList
+Mon Nov 13 07:26:03.616 2023 : Entering RmDataMfi::searchArrayList
+Mon Nov 13 07:26:03.616 2023 : Exiting RmDataMfi::searchArrayList
+Mon Nov 13 07:26:03.616 2023 : Entering RmDataMfi::createArray
+Mon Nov 13 07:26:03.616 2023 : Exiting RmDataMfi::createArray
+Mon Nov 13 07:26:03.616 2023 : Entering RmDataMfi::assignPdToArray
+Mon Nov 13 07:26:03.616 2023 : Entering AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.616 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.616 2023 : Exiting  AdapterDataMfi::isSupportMrArrayExt
+Mon Nov 13 07:26:03.616 2023 : Entering RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.616 2023 : Entering RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.616 2023 : Exiting RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.616 2023 : Exiting RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.616 2023 : Entering RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.616 2023 : Entering RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.616 2023 : Exiting RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.616 2023 : Exiting RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.616 2023 : Entering RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.616 2023 : Entering RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.616 2023 : Exiting RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.616 2023 : Exiting RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.616 2023 : Entering RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.616 2023 : Entering RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.616 2023 : Exiting RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.616 2023 : Exiting RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.616 2023 : Entering RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.616 2023 : Entering RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.616 2023 : Exiting RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.616 2023 : Exiting RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.616 2023 : Entering RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.616 2023 : Entering RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.616 2023 : Exiting RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.616 2023 : Exiting RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.616 2023 : Entering RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.616 2023 : Entering RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.616 2023 : Exiting RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.616 2023 : Exiting RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.616 2023 : Entering RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.616 2023 : Entering RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.616 2023 : Exiting RmDataMfi::searchPd using deviceId
+Mon Nov 13 07:26:03.616 2023 : Exiting RmDataMfi::getPd using deviceId
+Mon Nov 13 07:26:03.616 2023 : Exiting RmDataMfi::assignPdToArray
+Mon Nov 13 07:26:03.616 2023 : Entering RmDataMfi::createDiskGroup
+Mon Nov 13 07:26:03.616 2023 : Exiting RmDataMfi::createDiskGroup
+Mon Nov 13 07:26:03.616 2023 : Entering RmDataMfi::createSpan
+Mon Nov 13 07:26:03.616 2023 : Exiting RmDataMfi::createSpan
+Mon Nov 13 07:26:03.616 2023 : Drive deviceID=10 (PdDataMfi::isPdMissing) value=0
+Mon Nov 13 07:26:03.616 2023 : Drive deviceID=10 (PdDataMfi::doesPdContainFrnCfg) = 0
+Mon Nov 13 07:26:03.616 2023 : Drive deviceID=11 (PdDataMfi::isPdMissing) value=0
+Mon Nov 13 07:26:03.616 2023 : Drive deviceID=11 (PdDataMfi::doesPdContainFrnCfg) = 0
+Mon Nov 13 07:26:03.616 2023 : Drive deviceID=18 (PdDataMfi::isPdMissing) value=0
+Mon Nov 13 07:26:03.616 2023 : Drive deviceID=18 (PdDataMfi::doesPdContainFrnCfg) = 0
+Mon Nov 13 07:26:03.616 2023 : Drive deviceID=16 (PdDataMfi::isPdMissing) value=0
+Mon Nov 13 07:26:03.616 2023 : Drive deviceID=16 (PdDataMfi::doesPdContainFrnCfg) = 0
+Mon Nov 13 07:26:03.616 2023 : Drive deviceID=20 (PdDataMfi::isPdMissing) value=0
+Mon Nov 13 07:26:03.616 2023 : Drive deviceID=20 (PdDataMfi::doesPdContainFrnCfg) = 0
+Mon Nov 13 07:26:03.616 2023 : Drive deviceID=21 (PdDataMfi::isPdMissing) value=0
+Mon Nov 13 07:26:03.616 2023 : Drive deviceID=21 (PdDataMfi::doesPdContainFrnCfg) = 0
+Mon Nov 13 07:26:03.616 2023 : Drive deviceID=19 (PdDataMfi::isPdMissing) value=0
+Mon Nov 13 07:26:03.616 2023 : Drive deviceID=19 (PdDataMfi::doesPdContainFrnCfg) = 0
+Mon Nov 13 07:26:03.616 2023 : Drive deviceID=17 (PdDataMfi::isPdMissing) value=0
+Mon Nov 13 07:26:03.616 2023 : Drive deviceID=17 (PdDataMfi::doesPdContainFrnCfg) = 0
+Mon Nov 13 07:26:03.616 2023 : Exiting RmDataMfi::createRmCfg
+Mon Nov 13 07:26:03.616 2023 : Entering AdapterDataMfi::isAllowHDDSSDMix
+Mon Nov 13 07:26:03.616 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.616 2023 : Exiting AdapterDataMfi::isAllowHDDSSDMix retCode = 0
+Mon Nov 13 07:26:03.616 2023 : Entering AdapterDataMfi::isAllowMixInLd
+Mon Nov 13 07:26:03.616 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.616 2023 : Entering AdapterDataMfi::isAllowSSDMixInLd
+Mon Nov 13 07:26:03.616 2023 : Entering AdapterDataMfi::getCtlrInfo
+Mon Nov 13 07:26:03.616 2023 : Exiting AdapterDataMfi::isAllowSSDMixInLd
+Mon Nov 13 07:26:03.616 2023 : Entering AdapterDataMfi::getOem
+Mon Nov 13 07:26:03.616 2023 : LinuxMfiDataProvider::fireIoctl DCMD=10e8481 mbox.w[0]=0 mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.616 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=0
+Mon Nov 13 07:26:03.616 2023 : LinuxMfiDataProvider::fireIoctl returning with =0 errno=19
+Mon Nov 13 07:26:03.616 2023 : Exiting AdapterDataMfi::getOem
+Mon Nov 13 07:26:03.616 2023 : Entering SwBbuCp::sendCmd dcmd=0x05010000
+Mon Nov 13 07:26:03.616 2023 : LinuxMfiDataProvider::fireIoctl DCMD=5010000 mbox.w[0]=0 mbox.w[1]=0 mbox.w[2]=0
+Mon Nov 13 07:26:03.616 2023 : LinuxMfiDataProvider::fireIoctl send_ioctl retcode=0 cmdStatus=34
+Mon Nov 13 07:26:03.616 2023 : LinuxMfiDataProvider::fireIoctl returning with =34 errno=19
+Mon Nov 13 07:26:03.616 2023 : Entering MWCliRootCp::handleOuput retCode=0, DriveFull=0
+Mon Nov 13 07:26:03.617 2023 : MWCliRootCp::process processed for subtokenID=12 errorCode=0
+Mon Nov 13 07:26:03.617 2023 : Entering MWCliRootCp::handleOuput retCode=0, DriveFull=0
+Mon Nov 13 07:26:03.617 2023 : StorelibItDp::processLibCommand SL request sent
+Mon Nov 13 07:26:03.624 2023 : StorelibItDp::processLibCommand SL responded with retcode=0
+Mon Nov 13 07:26:03.624 2023 : StorelibItDp::processLibCommand SL request sent
+Mon Nov 13 07:26:03.624 2023 : StorelibItDp::processLibCommand SL responded with retcode=0
+Mon Nov 13 07:26:03.624 2023 : Entering RmDataMfi::~RmDataMfi pdListPtr_=2939da0 count=9
+Mon Nov 13 07:26:03.624 2023 : CtMain::main command completed with retcode=0
+
